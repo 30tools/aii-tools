@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import { CommandPalette } from "./command-palette";
 
 export function Header() {
   const { theme, setTheme } = useTheme();
@@ -40,8 +41,9 @@ export function Header() {
           </Link>
         </nav>
 
-        {/* Theme Toggle and Mobile Menu */}
+        {/* Search and Theme Toggle */}
         <div className="flex items-center space-x-2">
+          <CommandPalette />
           <Button
             variant="ghost"
             size="icon"

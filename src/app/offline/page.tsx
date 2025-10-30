@@ -44,8 +44,7 @@ export default function OfflinePage() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-2">
-            <Button 
-              onClick={() => window.location.reload()} 
+            <Button
               className="flex-1"
               variant="default"
             >

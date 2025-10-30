@@ -1,48 +1,84 @@
 {
-  "categories": [
-    {
-      "id": "writing",
-      "name": "Writing & Content",
-      "description": "AI-powered writing and content creation tools",
-      "icon": "PenTool"
-    },
-    {
-      "id": "creativity",
-      "name": "Idea & Creativity",
-      "description": "Generate creative ideas and concepts",
-      "icon": "Lightbulb"
-    },
-    {
-      "id": "text",
-      "name": "Text Utilities",
-      "description": "Text processing and enhancement tools",
-      "icon": "Type"
-    },
-    {
-      "id": "chat",
-      "name": "Chat & Conversation",
-      "description": "Interactive AI conversation tools",
-      "icon": "MessageCircle"
-    },
-    {
-      "id": "developer",
-      "name": "Developer Tools",
-      "description": "AI tools for developers and programmers",
-      "icon": "Code"
-    },
-    {
-      "id": "learning",
-      "name": "Learning & Study",
-      "description": "Educational and study assistance tools",
-      "icon": "GraduationCap"
-    },
-    {
-      "id": "fun",
-      "name": "Fun & Viral",
-      "description": "Entertainment and viral content tools",
-      "icon": "Smile"
-    }
-  ],
+   "categories": [
+     {
+       "id": "writing",
+       "name": "Writing & Content",
+       "description": "AI-powered writing and content creation tools",
+       "icon": "PenTool"
+     },
+     {
+       "id": "creativity",
+       "name": "Idea & Creativity",
+       "description": "Generate creative ideas and concepts",
+       "icon": "Lightbulb"
+     },
+     {
+       "id": "text",
+       "name": "Text Utilities",
+       "description": "Text processing and enhancement tools",
+       "icon": "Type"
+     },
+     {
+       "id": "chat",
+       "name": "Chat & Conversation",
+       "description": "Interactive AI conversation tools",
+       "icon": "MessageCircle"
+     },
+     {
+       "id": "developer",
+       "name": "Developer Tools",
+       "description": "AI tools for developers and programmers",
+       "icon": "Code"
+     },
+     {
+       "id": "learning",
+       "name": "Learning & Study",
+       "description": "Educational and study assistance tools",
+       "icon": "GraduationCap"
+     },
+     {
+       "id": "fun",
+       "name": "Fun & Viral",
+       "description": "Entertainment and viral content tools",
+       "icon": "Smile"
+     },
+     {
+       "id": "business",
+       "name": "Business & Marketing",
+       "description": "AI tools for business and marketing",
+       "icon": "Briefcase"
+     },
+     {
+       "id": "design",
+       "name": "Design & Media",
+       "description": "AI tools for design and media creation",
+       "icon": "Palette"
+     },
+     {
+       "id": "seo",
+       "name": "SEO & Analytics",
+       "description": "AI tools for SEO and analytics",
+       "icon": "BarChart3"
+     },
+     {
+       "id": "social",
+       "name": "Social Media",
+       "description": "AI tools for social media management",
+       "icon": "Share"
+     },
+     {
+       "id": "health",
+       "name": "Health & Wellness",
+       "description": "AI tools for health and wellness",
+       "icon": "HeartPulse"
+     },
+     {
+       "id": "finance",
+       "name": "Finance & Investment",
+       "description": "AI tools for finance and investment",
+       "icon": "DollarSign"
+     }
+   ],
   "tools": [
     {
       "id": "ai-paraphraser",
@@ -450,6 +486,655 @@
       "status": "active",
       "keywords": ["poem", "poetry", "creative", "writing"],
       "features": ["Multiple styles", "Rhyme schemes", "Emotional depth"]
+    },
+    {
+      "id": "business-plan-generator",
+      "title": "Business Plan Generator",
+      "description": "Create comprehensive business plans with financial projections",
+      "category": "business",
+      "url": "/business/business-plan-generator",
+      "icon": "FileText",
+      "status": "active",
+      "keywords": ["business", "plan", "financial", "projection"],
+      "features": ["Market analysis", "Financial projections", "Executive summary"]
+    },
+    {
+      "id": "logo-maker",
+      "title": "AI Logo Maker",
+      "description": "Generate professional logos from text descriptions",
+      "category": "design",
+      "url": "/design/logo-maker",
+      "icon": "Image",
+      "status": "active",
+      "keywords": ["logo", "brand", "design", "visual"],
+      "features": ["Multiple styles", "Customizable colors", "Vector formats"]
+    },
+    {
+      "id": "color-palette-generator",
+      "title": "Color Palette Generator",
+      "description": "Create harmonious color palettes for designs",
+      "category": "design",
+      "url": "/design/color-palette-generator",
+      "icon": "Palette",
+      "status": "active",
+      "keywords": ["color", "palette", "design", "scheme"],
+      "features": ["Harmonious combinations", "Accessibility check", "Export options"]
+    },
+    {
+      "id": "seo-analyzer",
+      "title": "SEO Analyzer",
+      "description": "Analyze website SEO and get improvement recommendations",
+      "category": "seo",
+      "url": "/seo/seo-analyzer",
+      "icon": "Search",
+      "status": "active",
+      "keywords": ["seo", "analysis", "optimization", "rankings"],
+      "features": ["Keyword analysis", "Technical SEO", "Competitor insights"]
+    },
+    {
+      "id": "keyword-researcher",
+      "title": "Keyword Researcher",
+      "description": "Find profitable keywords with search volume and competition",
+      "category": "seo",
+      "url": "/seo/keyword-researcher",
+      "icon": "BarChart3",
+      "status": "active",
+      "keywords": ["keyword", "research", "search", "volume"],
+      "features": ["Search volume", "Competition data", "Trend analysis"]
+    },
+    {
+      "id": "social-media-scheduler",
+      "title": "Social Media Scheduler",
+      "description": "Schedule posts across multiple social platforms",
+      "category": "social",
+      "url": "/social/social-media-scheduler",
+      "icon": "Calendar",
+      "status": "active",
+      "keywords": ["social", "schedule", "post", "platform"],
+      "features": ["Multi-platform", "Optimal timing", "Analytics tracking"]
+    },
+    {
+      "id": "hashtag-generator",
+      "title": "Hashtag Generator",
+      "description": "Generate relevant hashtags for social media posts",
+      "category": "social",
+      "url": "/social/hashtag-generator",
+      "icon": "Hash",
+      "status": "active",
+      "keywords": ["hashtag", "social", "engagement", "trending"],
+      "features": ["Platform-specific", "Trending tags", "Engagement focused"]
+    },
+    {
+      "id": "diet-planner",
+      "title": "AI Diet Planner",
+      "description": "Create personalized diet plans based on health goals",
+      "category": "health",
+      "url": "/health/diet-planner",
+      "icon": "Apple",
+      "status": "active",
+      "keywords": ["diet", "nutrition", "health", "meal"],
+      "features": ["Personalized plans", "Nutritional tracking", "Goal oriented"]
+    },
+    {
+      "id": "workout-generator",
+      "title": "AI Workout Generator",
+      "description": "Generate personalized workout routines for fitness goals",
+      "category": "health",
+      "url": "/health/workout-generator",
+      "icon": "Dumbbell",
+      "status": "active",
+      "keywords": ["workout", "fitness", "exercise", "routine"],
+      "features": ["Goal-based", "Equipment aware", "Progress tracking"]
+    },
+    {
+      "id": "investment-analyzer",
+      "title": "Investment Analyzer",
+      "description": "Analyze investment opportunities and portfolio performance",
+      "category": "finance",
+      "url": "/finance/investment-analyzer",
+      "icon": "TrendingUp",
+      "status": "active",
+      "keywords": ["investment", "portfolio", "analysis", "finance"],
+      "features": ["Risk assessment", "Performance metrics", "Diversification"]
+    },
+    {
+      "id": "budget-tracker",
+      "title": "AI Budget Tracker",
+      "description": "Track expenses and optimize your budget automatically",
+      "category": "finance",
+      "url": "/finance/budget-tracker",
+      "icon": "Wallet",
+      "status": "active",
+      "keywords": ["budget", "expense", "finance", "tracking"],
+      "features": ["Expense categorization", "Spending insights", "Goal setting"]
+    },
+    {
+      "id": "email-template-generator",
+      "title": "Email Template Generator",
+      "description": "Create professional email templates for any purpose",
+      "category": "business",
+      "url": "/business/email-template-generator",
+      "icon": "Mail",
+      "status": "active",
+      "keywords": ["email", "template", "professional", "communication"],
+      "features": ["Multiple purposes", "Industry specific", "Responsive design"]
+    },
+    {
+      "id": "pitch-deck-generator",
+      "title": "Pitch Deck Generator",
+      "description": "Create compelling pitch decks for startups and businesses",
+      "category": "business",
+      "url": "/business/pitch-deck-generator",
+      "icon": "Presentation",
+      "status": "active",
+      "keywords": ["pitch", "deck", "startup", "presentation"],
+      "features": ["Investor focused", "Proven structure", "Visual elements"]
+    },
+    {
+      "id": "favicon-generator",
+      "title": "Favicon Generator",
+      "description": "Create custom favicons from text or images",
+      "category": "design",
+      "url": "/design/favicon-generator",
+      "icon": "Image",
+      "status": "active",
+      "keywords": ["favicon", "icon", "website", "brand"],
+      "features": ["Multiple formats", "Automatic optimization", "Preview"]
+    },
+    {
+      "id": "font-combiner",
+      "title": "Font Combiner",
+      "description": "Find perfect font pairings for your designs",
+      "category": "design",
+      "url": "/design/font-combiner",
+      "icon": "Type",
+      "status": "active",
+      "keywords": ["font", "typography", "design", "pairing"],
+      "features": ["Harmonious pairings", "Readability check", "Web-safe fonts"]
+    },
+    {
+      "id": "backlink-analyzer",
+      "title": "Backlink Analyzer",
+      "description": "Analyze backlinks and improve your site's authority",
+      "category": "seo",
+      "url": "/seo/backlink-analyzer",
+      "icon": "Link",
+      "status": "active",
+      "keywords": ["backlink", "authority", "seo", "link"],
+      "features": ["Quality assessment", "Anchor text analysis", "Competitor insights"]
+    },
+    {
+      "id": "page-speed-optimizer",
+      "title": "Page Speed Optimizer",
+      "description": "Analyze and optimize website loading speed",
+      "category": "seo",
+      "url": "/seo/page-speed-optimizer",
+      "icon": "Zap",
+      "status": "active",
+      "keywords": ["speed", "performance", "optimization", "loading"],
+      "features": ["Performance audit", "Optimization suggestions", "Core web vitals"]
+    },
+    {
+      "id": "content-calendar",
+      "title": "Content Calendar",
+      "description": "Plan and schedule content across multiple channels",
+      "category": "social",
+      "url": "/social/content-calendar",
+      "icon": "Calendar",
+      "status": "active",
+      "keywords": ["content", "calendar", "schedule", "planning"],
+      "features": ["Multi-channel", "Visual planning", "Team collaboration"]
+    },
+    {
+      "id": "influencer-finder",
+      "title": "Influencer Finder",
+      "description": "Find relevant influencers for your brand or niche",
+      "category": "social",
+      "url": "/social/influencer-finder",
+      "icon": "Users",
+      "status": "active",
+      "keywords": ["influencer", "marketing", "social", "outreach"],
+      "features": ["Audience analysis", "Engagement metrics", "Niche matching"]
+    },
+    {
+      "id": "meditation-guides",
+      "title": "Meditation Guides",
+      "description": "Personalized meditation sessions for stress relief",
+      "category": "health",
+      "url": "/health/meditation-guides",
+      "icon": "Meditation",
+      "status": "active",
+      "keywords": ["meditation", "mindfulness", "stress", "wellness"],
+      "features": ["Personalized sessions", "Goal-oriented", "Progress tracking"]
+    },
+    {
+      "id": "sleep-tracker",
+      "title": "AI Sleep Tracker",
+      "description": "Analyze and improve your sleep patterns",
+      "category": "health",
+      "url": "/health/sleep-tracker",
+      "icon": "Moon",
+      "status": "active",
+      "keywords": ["sleep", "tracker", "health", "wellness"],
+      "features": ["Pattern analysis", "Improvement tips", "Sleep quality"]
+    },
+    {
+      "id": "tax-calculator",
+      "title": "Tax Calculator",
+      "description": "Calculate taxes and optimize deductions",
+      "category": "finance",
+      "url": "/finance/tax-calculator",
+      "icon": "Calculator",
+      "status": "active",
+      "keywords": ["tax", "calculator", "finance", "deduction"],
+      "features": ["Multiple scenarios", "Deduction optimization", "Filing tips"]
+    },
+    {
+      "id": "loan-comparison",
+      "title": "Loan Comparison Tool",
+      "description": "Compare loan options and find the best rates",
+      "category": "finance",
+      "url": "/finance/loan-comparison",
+      "icon": "DollarSign",
+      "status": "active",
+      "keywords": ["loan", "comparison", "finance", "rates"],
+      "features": ["Rate comparison", "Total cost", "Term analysis"]
+    },
+    {
+      "id": "sales-pitch-generator",
+      "title": "Sales Pitch Generator",
+      "description": "Create compelling sales pitches for products or services",
+      "category": "business",
+      "url": "/business/sales-pitch-generator",
+      "icon": "Target",
+      "status": "active",
+      "keywords": ["sales", "pitch", "presentation", "conversion"],
+      "features": ["Customer-focused", "Problem-solution", "Call-to-action"]
+    },
+    {
+      "id": "brand-name-generator",
+      "title": "Brand Name Generator",
+      "description": "Generate memorable brand names with domain check",
+      "category": "business",
+      "url": "/business/brand-name-generator",
+      "icon": "BadgeCheck",
+      "status": "active",
+      "keywords": ["brand", "name", "domain", "trademark"],
+      "features": ["Domain availability", "Trademark check", "Creative options"]
+    },
+    {
+      "id": "website-auditor",
+      "title": "Website Auditor",
+      "description": "Comprehensive website audit for performance and SEO",
+      "category": "design",
+      "url": "/design/website-auditor",
+      "icon": "Scan",
+      "status": "active",
+      "keywords": ["website", "audit", "performance", "seo"],
+      "features": ["Technical SEO", "Performance metrics", "UX analysis"]
+    },
+    {
+      "id": "mockup-generator",
+      "title": "Mockup Generator",
+      "description": "Create product mockups for marketing and presentations",
+      "category": "design",
+      "url": "/design/mockup-generator",
+      "icon": "Layout",
+      "status": "active",
+      "keywords": ["mockup", "design", "presentation", "product"],
+      "features": ["Multiple devices", "Realistic renders", "Custom backgrounds"]
+    },
+    {
+      "id": "content-auditor",
+      "title": "Content Auditor",
+      "description": "Analyze content performance and identify optimization opportunities",
+      "category": "seo",
+      "url": "/seo/content-auditor",
+      "icon": "FileSearch",
+      "status": "active",
+      "keywords": ["content", "audit", "performance", "optimization"],
+      "features": ["Performance metrics", "Gap analysis", "Optimization tips"]
+    },
+    {
+      "id": "competitor-analyzer",
+      "title": "Competitor Analyzer",
+      "description": "Analyze competitors' strategies and identify opportunities",
+      "category": "seo",
+      "url": "/seo/competitor-analyzer",
+      "icon": "Users",
+      "status": "active",
+      "keywords": ["competitor", "analysis", "strategy", "opportunity"],
+      "features": ["Keyword analysis", "Content strategy", "Traffic insights"]
+    },
+    {
+      "id": "story-visualizer",
+      "title": "Story Visualizer",
+      "description": "Create visual storylines for social media",
+      "category": "social",
+      "url": "/social/story-visualizer",
+      "icon": "Layout",
+      "status": "active",
+      "keywords": ["story", "visual", "social", "content"],
+      "features": ["Template options", "Brand consistency", "Engagement focus"]
+    },
+    {
+      "id": "engagement-analyzer",
+      "title": "Engagement Analyzer",
+      "description": "Analyze social media engagement and optimize content",
+      "category": "social",
+      "url": "/social/engagement-analyzer",
+      "icon": "BarChart3",
+      "status": "active",
+      "keywords": ["engagement", "analytics", "social", "content"],
+      "features": ["Performance metrics", "Optimization tips", "Trend analysis"]
+    },
+    {
+      "id": "habit-tracker",
+      "title": "AI Habit Tracker",
+      "description": "Build and maintain healthy habits with AI guidance",
+      "category": "health",
+      "url": "/health/habit-tracker",
+      "icon": "CheckCircle",
+      "status": "active",
+      "keywords": ["habit", "tracker", "health", "productivity"],
+      "features": ["Personalized plans", "Progress tracking", "Motivation tips"]
+    },
+    {
+      "id": "symptom-checker",
+      "title": "AI Symptom Checker",
+      "description": "Get health insights based on symptoms (not for diagnosis)",
+      "category": "health",
+      "url": "/health/symptom-checker",
+      "icon": "HeartPulse",
+      "status": "active",
+      "keywords": ["symptom", "health", "check", "insight"],
+      "features": ["Symptom analysis", "Health insights", "Medical guidance"]
+    },
+    {
+      "id": "retirement-planner",
+      "title": "AI Retirement Planner",
+      "description": "Plan your retirement with personalized investment strategies",
+      "category": "finance",
+      "url": "/finance/retirement-planner",
+      "icon": "Calendar",
+      "status": "active",
+      "keywords": ["retirement", "planning", "finance", "investment"],
+      "features": ["Investment strategies", "Goal planning", "Risk assessment"]
+    },
+    {
+      "id": "expense-splitter",
+      "title": "Expense Splitter",
+      "description": "Fairly split expenses among friends or roommates",
+      "category": "finance",
+      "url": "/finance/expense-splitter",
+      "icon": "Split",
+      "status": "active",
+      "keywords": ["expense", "split", "finance", "sharing"],
+      "features": ["Multiple currencies", "Fair distribution", "Tracking"]
+    },
+    {
+      "id": "meeting-summarizer",
+      "title": "Meeting Summarizer",
+      "description": "Generate concise summaries from meeting transcripts",
+      "category": "business",
+      "url": "/business/meeting-summarizer",
+      "icon": "FileText",
+      "status": "active",
+      "keywords": ["meeting", "summary", "transcript", "productivity"],
+      "features": ["Action items", "Key decisions", "Follow-up tasks"]
+    },
+    {
+      "id": "resume-optimizer",
+      "title": "Resume Optimizer",
+      "description": "Optimize your resume for ATS systems and hiring managers",
+      "category": "business",
+      "url": "/business/resume-optimizer",
+      "icon": "FileText",
+      "status": "active",
+      "keywords": ["resume", "ats", "optimization", "job"],
+      "features": ["ATS compatibility", "Keyword optimization", "ATS scoring"]
+    },
+    {
+      "id": "presentation-maker",
+      "title": "AI Presentation Maker",
+      "description": "Create stunning presentations from text content",
+      "category": "design",
+      "url": "/design/presentation-maker",
+      "icon": "Presentation",
+      "status": "active",
+      "keywords": ["presentation", "slide", "design", "content"],
+      "features": ["Visual templates", "Content optimization", "Design consistency"]
+    },
+    {
+      "id": "icon-generator",
+      "title": "Icon Generator",
+      "description": "Create custom icons for apps and websites",
+      "category": "design",
+      "url": "/design/icon-generator",
+      "icon": "Image",
+      "status": "active",
+      "keywords": ["icon", "design", "app", "web"],
+      "features": ["Multiple styles", "Vector formats", "Customizable"]
+    },
+    {
+      "id": "meta-description-optimizer",
+      "title": "Meta Description Optimizer",
+      "description": "Optimize meta descriptions for higher click-through rates",
+      "category": "seo",
+      "url": "/seo/meta-description-optimizer",
+      "icon": "Search",
+      "status": "active",
+      "keywords": ["meta", "description", "seo", "ctr"],
+      "features": ["CTR optimization", "Character limits", "Keyword inclusion"]
+    },
+    {
+      "id": "sitemap-generator",
+      "title": "Sitemap Generator",
+      "description": "Create XML sitemaps for better search engine indexing",
+      "category": "seo",
+      "url": "/seo/sitemap-generator",
+      "icon": "Map",
+      "status": "active",
+      "keywords": ["sitemap", "xml", "indexing", "seo"],
+      "features": ["Automatic generation", "Priority settings", "Change frequency"]
+    },
+    {
+      "id": "social-listening",
+      "title": "Social Listening Tool",
+      "description": "Monitor brand mentions and social conversations",
+      "category": "social",
+      "url": "/social/social-listening",
+      "icon": "Mic",
+      "status": "active",
+      "keywords": ["social", "monitoring", "brand", "mentions"],
+      "features": ["Real-time monitoring", "Sentiment analysis", "Competitor tracking"]
+    },
+    {
+      "id": "post-engagement-booster",
+      "title": "Post Engagement Booster",
+      "description": "Optimize posts for maximum social media engagement",
+      "category": "social",
+      "url": "/social/post-engagement-booster",
+      "icon": "Zap",
+      "status": "active",
+      "keywords": ["engagement", "social", "post", "optimization"],
+      "features": ["Timing optimization", "Content suggestions", "Hashtag strategy"]
+    },
+    {
+      "id": "fitness-tracker",
+      "title": "AI Fitness Tracker",
+      "description": "Track workouts and optimize your fitness routine",
+      "category": "health",
+      "url": "/health/fitness-tracker",
+      "icon": "Activity",
+      "status": "active",
+      "keywords": ["fitness", "tracker", "workout", "health"],
+      "features": ["Progress tracking", "Performance insights", "Goal setting"]
+    },
+    {
+      "id": "water-intake-tracker",
+      "title": "Water Intake Tracker",
+      "description": "Track and optimize your daily water consumption",
+      "category": "health",
+      "url": "/health/water-intake-tracker",
+      "icon": "Droplets",
+      "status": "active",
+      "keywords": ["water", "hydration", "health", "tracking"],
+      "features": ["Daily goals", "Reminders", "Progress visualization"]
+    },
+    {
+      "id": "investment-portfolio-tracker",
+      "title": "Investment Portfolio Tracker",
+      "description": "Track and analyze your investment portfolio performance",
+      "category": "finance",
+      "url": "/finance/investment-portfolio-tracker",
+      "icon": "BarChart3",
+      "status": "active",
+      "keywords": ["portfolio", "investment", "tracking", "analysis"],
+      "features": ["Performance metrics", "Risk analysis", "Asset allocation"]
+    },
+    {
+      "id": "crypto-market-analyzer",
+      "title": "Crypto Market Analyzer",
+      "description": "Analyze cryptocurrency markets and investment opportunities",
+      "category": "finance",
+      "url": "/finance/crypto-market-analyzer",
+      "icon": "Zap",
+      "status": "active",
+      "keywords": ["crypto", "market", "analysis", "investment"],
+      "features": ["Trend analysis", "Risk assessment", "Portfolio tracking"]
+    },
+    {
+      "id": "project-manager",
+      "title": "AI Project Manager",
+      "description": "Plan and manage projects with AI-powered insights",
+      "category": "business",
+      "url": "/business/project-manager",
+      "icon": "Layout",
+      "status": "active",
+      "keywords": ["project", "management", "planning", "team"],
+      "features": ["Timeline planning", "Resource allocation", "Risk assessment"]
+    },
+    {
+      "id": "contract-analyzer",
+      "title": "Contract Analyzer",
+      "description": "Analyze contracts and identify key terms and risks",
+      "category": "business",
+      "url": "/business/contract-analyzer",
+      "icon": "FileText",
+      "status": "active",
+      "keywords": ["contract", "analysis", "legal", "terms"],
+      "features": ["Risk identification", "Key terms", "Clause review"]
+    },
+    {
+      "id": "image-compressor",
+      "title": "AI Image Compressor",
+      "description": "Compress images while maintaining quality",
+      "category": "design",
+      "url": "/design/image-compressor",
+      "icon": "Image",
+      "status": "active",
+      "keywords": ["image", "compress", "optimize", "quality"],
+      "features": ["Quality preservation", "Multiple formats", "Batch processing"]
+    },
+    {
+      "id": "video-thumbnail-generator",
+      "title": "Video Thumbnail Generator",
+      "description": "Create eye-catching thumbnails for videos",
+      "category": "design",
+      "url": "/design/video-thumbnail-generator",
+      "icon": "Video",
+      "status": "active",
+      "keywords": ["thumbnail", "video", "design", "engagement"],
+      "features": ["Engagement focused", "Platform optimized", "Brand consistency"]
+    },
+    {
+      "id": "local-seo-optimizer",
+      "title": "Local SEO Optimizer",
+      "description": "Optimize your business for local search results",
+      "category": "seo",
+      "url": "/seo/local-seo-optimizer",
+      "icon": "MapPin",
+      "status": "active",
+      "keywords": ["local", "seo", "business", "gmb"],
+      "features": ["GMB optimization", "Local citations", "Review management"]
+    },
+    {
+      "id": "technical-seo-auditor",
+      "title": "Technical SEO Auditor",
+      "description": "Audit technical SEO issues and get fixes",
+      "category": "seo",
+      "url": "/seo/technical-seo-auditor",
+      "icon": "Settings",
+      "status": "active",
+      "keywords": ["technical", "seo", "audit", "optimization"],
+      "features": ["Crawl issues", "Performance", "Security checks"]
+    },
+    {
+      "id": "live-stream-idea-generator",
+      "title": "Live Stream Idea Generator",
+      "description": "Generate engaging live stream topics for your audience",
+      "category": "social",
+      "url": "/social/live-stream-idea-generator",
+      "icon": "Video",
+      "status": "active",
+      "keywords": ["live", "stream", "content", "engagement"],
+      "features": ["Audience focused", "Trending topics", "Interactive elements"]
+    },
+    {
+      "id": "community-manager",
+      "title": "Community Manager",
+      "description": "Manage and engage with your social media community",
+      "category": "social",
+      "url": "/social/community-manager",
+      "icon": "Users",
+      "status": "active",
+      "keywords": ["community", "management", "engagement", "social"],
+      "features": ["Response templates", "Engagement tracking", "Sentiment analysis"]
+    },
+    {
+      "id": "mental-health-tracker",
+      "title": "Mental Health Tracker",
+      "description": "Track and improve your mental wellness over time",
+      "category": "health",
+      "url": "/health/mental-health-tracker",
+      "icon": "Heart",
+      "status": "active",
+      "keywords": ["mental", "health", "wellness", "tracking"],
+      "features": ["Mood tracking", "Stress monitoring", "Insight generation"]
+    },
+    {
+      "id": "medication-tracker",
+      "title": "Medication Tracker",
+      "description": "Never miss a dose with AI-powered medication reminders",
+      "category": "health",
+      "url": "/health/medication-tracker",
+      "icon": "Pill",
+      "status": "active",
+      "keywords": ["medication", "reminder", "health", "tracking"],
+      "features": ["Custom schedules", "Reminders", "Progress tracking"]
+    },
+    {
+      "id": "credit-score-analyzer",
+      "title": "Credit Score Analyzer",
+      "description": "Analyze and improve your credit score with recommendations",
+      "category": "finance",
+      "url": "/finance/credit-score-analyzer",
+      "icon": "BarChart3",
+      "status": "active",
+      "keywords": ["credit", "score", "finance", "improvement"],
+      "features": ["Score analysis", "Improvement tips", "Credit report"]
+    },
+    {
+      "id": "insurance-comparison",
+      "title": "Insurance Comparison Tool",
+      "description": "Compare insurance options and find the best coverage",
+      "category": "finance",
+      "url": "/finance/insurance-comparison",
+      "icon": "Shield",
+      "status": "active",
+      "keywords": ["insurance", "comparison", "coverage", "finance"],
+      "features": ["Multiple providers", "Coverage analysis", "Cost comparison"]
     }
   ]
 }
