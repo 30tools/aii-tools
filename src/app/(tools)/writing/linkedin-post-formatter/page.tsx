@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "LinkedIn Post Formatter",
   "description": "AI tool to format professional LinkedIn posts with optimal structure and engagement",
-  "url": "https://ai-tools.30tools.com/tools/writing/linkedin-post-formatter",
+  "url": "https://ai-tools.30tools.com/writing/linkedin-post-formatter",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {

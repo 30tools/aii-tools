@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free AI bio roaster that gives your social media bio a fun, witty roast. Get entertaining feedback on your profile. No signup required.",
   keywords: ["roast my bio", "bio roaster", "funny bio analysis", "social media humor", "profile roast", "witty feedback", "entertainment tool"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/fun/roast-my-bio",
+    canonical: "https://ai-tools.30tools.com/fun/roast-my-bio",
   },
   openGraph: {
     title: "Roast My Bio - Humorous Bio Analysis Tool",
     description: "Free AI bio roaster that gives your social media bio a fun, witty roast. Get entertaining feedback on your profile.",
-    url: "https://ai-tools.30tools.com/tools/fun/roast-my-bio",
+    url: "https://ai-tools.30tools.com/fun/roast-my-bio",
   },
 };
 
@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "Roast My Bio",
   "description": "AI tool to provide humorous and witty feedback on social media bios",
-  "url": "https://ai-tools.30tools.com/tools/fun/roast-my-bio",
+  "url": "https://ai-tools.30tools.com/fun/roast-my-bio",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {

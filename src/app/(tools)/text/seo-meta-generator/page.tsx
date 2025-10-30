@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free AI SEO meta generator for title tags and meta descriptions. Optimize your content for search engines with perfect meta tags. No signup required.",
   keywords: ["SEO meta generator", "meta title generator", "meta description generator", "SEO optimization", "search engine optimization", "title tags", "meta tags"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/text/seo-meta-generator",
+    canonical: "https://ai-tools.30tools.com/text/seo-meta-generator",
   },
   openGraph: {
     title: "SEO Meta Generator - Title & Description Optimizer",
     description: "Free AI SEO meta generator for title tags and meta descriptions. Optimize your content for search engines with perfect meta tags.",
-    url: "https://ai-tools.30tools.com/tools/text/seo-meta-generator",
+    url: "https://ai-tools.30tools.com/text/seo-meta-generator",
   },
 };
 
@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "SEO Meta Generator",
   "description": "AI tool to generate optimized SEO title tags and meta descriptions",
-  "url": "https://ai-tools.30tools.com/tools/text/seo-meta-generator",
+  "url": "https://ai-tools.30tools.com/text/seo-meta-generator",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {

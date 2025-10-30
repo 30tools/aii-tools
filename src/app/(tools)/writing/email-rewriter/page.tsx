@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free AI email rewriter to make emails more polite, persuasive, or concise. Improve your professional communication instantly. No signup required.",
   keywords: ["email rewriter", "professional emails", "email enhancement", "business communication", "email tone", "persuasive writing"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/writing/email-rewriter",
+    canonical: "https://ai-tools.30tools.com/writing/email-rewriter",
   },
   openGraph: {
     title: "Email Rewriter - Professional Email Enhancement Tool",
     description: "Free AI email rewriter to make emails more polite, persuasive, or concise. Improve your professional communication instantly.",
-    url: "https://ai-tools.30tools.com/tools/writing/email-rewriter",
+    url: "https://ai-tools.30tools.com/writing/email-rewriter",
   },
 };
 
@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "Email Rewriter",
   "description": "AI tool to enhance and rewrite emails for better professional communication",
-  "url": "https://ai-tools.30tools.com/tools/writing/email-rewriter",
+  "url": "https://ai-tools.30tools.com/writing/email-rewriter",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {

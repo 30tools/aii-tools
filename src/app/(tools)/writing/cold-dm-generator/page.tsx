@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free AI cold DM generator for Twitter and LinkedIn outreach. Create personalized messages that get responses. No signup required.",
   keywords: ["cold DM generator", "outreach messages", "LinkedIn outreach", "Twitter DM", "networking", "lead generation", "sales outreach"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/writing/cold-dm-generator",
+    canonical: "https://ai-tools.30tools.com/writing/cold-dm-generator",
   },
   openGraph: {
     title: "Cold DM Generator - Professional Outreach Messages",
     description: "Free AI cold DM generator for Twitter and LinkedIn outreach. Create personalized messages that get responses.",
-    url: "https://ai-tools.30tools.com/tools/writing/cold-dm-generator",
+    url: "https://ai-tools.30tools.com/writing/cold-dm-generator",
   },
 };
 
@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "Cold DM Generator",
   "description": "AI tool to generate effective cold outreach messages for social media platforms",
-  "url": "https://ai-tools.30tools.com/tools/writing/cold-dm-generator",
+  "url": "https://ai-tools.30tools.com/writing/cold-dm-generator",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {

@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free ChatGPT-powered AI chatbot for intelligent conversations. Get instant answers, creative help, and problem-solving assistance. No signup required.",
   keywords: ["ChatGPT chatbot", "AI assistant", "AI chat", "intelligent conversations", "AI help", "virtual assistant", "question answering"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/chat/chatgpt-chatbot",
+    canonical: "https://ai-tools.30tools.com/chat/chatgpt-chatbot",
   },
   openGraph: {
     title: "ChatGPT Chatbot - Free AI Assistant",
     description: "Free ChatGPT-powered AI chatbot for intelligent conversations. Get instant answers, creative help, and problem-solving assistance.",
-    url: "https://ai-tools.30tools.com/tools/chat/chatgpt-chatbot",
+    url: "https://ai-tools.30tools.com/chat/chatgpt-chatbot",
   },
 };
 
@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "ChatGPT Chatbot",
   "description": "Free AI-powered chatbot for intelligent conversations and assistance",
-  "url": "https://ai-tools.30tools.com/tools/chat/chatgpt-chatbot",
+  "url": "https://ai-tools.30tools.com/chat/chatgpt-chatbot",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {

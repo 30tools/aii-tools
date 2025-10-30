@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free AI code explainer that breaks down any code snippet into plain English. Understand programming concepts easily. No signup required.",
   keywords: ["code explainer", "code analysis", "programming help", "code documentation", "learn coding", "understand code", "developer tools"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/developer/code-explainer",
+    canonical: "https://ai-tools.30tools.com/developer/code-explainer",
   },
   openGraph: {
     title: "Code Explainer - AI-Powered Code Analysis Tool",
     description: "Free AI code explainer that breaks down any code snippet into plain English. Understand programming concepts easily.",
-    url: "https://ai-tools.30tools.com/tools/developer/code-explainer",
+    url: "https://ai-tools.30tools.com/developer/code-explainer",
   },
 };
 
@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "Code Explainer",
   "description": "AI tool to explain code snippets in simple terms for better understanding",
-  "url": "https://ai-tools.30tools.com/tools/developer/code-explainer",
+  "url": "https://ai-tools.30tools.com/developer/code-explainer",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {

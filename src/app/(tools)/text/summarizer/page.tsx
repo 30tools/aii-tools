@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free AI text summarizer to create short, medium, or long summaries. Extract key points from any text instantly. No signup required.",
   keywords: ["text summarizer", "AI summary", "summarize text", "key points", "text analysis", "document summary"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/text/summarizer",
+    canonical: "https://ai-tools.30tools.com/text/summarizer",
   },
   openGraph: {
     title: "Text Summarizer - AI-Powered Text Summary Tool",
     description: "Free AI text summarizer to create short, medium, or long summaries. Extract key points from any text instantly.",
-    url: "https://ai-tools.30tools.com/tools/text/summarizer",
+    url: "https://ai-tools.30tools.com/text/summarizer",
   },
 };
 
@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "Text Summarizer",
   "description": "Free AI tool to summarize text and extract key points",
-  "url": "https://ai-tools.30tools.com/tools/text/summarizer",
+  "url": "https://ai-tools.30tools.com/text/summarizer",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {

@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free AI Instagram caption generator with hashtags and engaging content. Create viral captions that boost engagement. No signup required.",
   keywords: ["Instagram caption generator", "social media content", "Instagram hashtags", "viral captions", "engagement boost", "content creation"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/writing/instagram-caption-generator",
+    canonical: "https://ai-tools.30tools.com/writing/instagram-caption-generator",
   },
   openGraph: {
     title: "Instagram Caption Generator - AI-Powered Social Media Content",
     description: "Free AI Instagram caption generator with hashtags and engaging content. Create viral captions that boost engagement.",
-    url: "https://ai-tools.30tools.com/tools/writing/instagram-caption-generator",
+    url: "https://ai-tools.30tools.com/writing/instagram-caption-generator",
   },
 };
 
@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "Instagram Caption Generator",
   "description": "AI tool to generate engaging Instagram captions with relevant hashtags",
-  "url": "https://ai-tools.30tools.com/tools/writing/instagram-caption-generator",
+  "url": "https://ai-tools.30tools.com/writing/instagram-caption-generator",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {
