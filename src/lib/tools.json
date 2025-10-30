@@ -1,0 +1,455 @@
+{
+  "categories": [
+    {
+      "id": "writing",
+      "name": "Writing & Content",
+      "description": "AI-powered writing and content creation tools",
+      "icon": "PenTool"
+    },
+    {
+      "id": "creativity",
+      "name": "Idea & Creativity",
+      "description": "Generate creative ideas and concepts",
+      "icon": "Lightbulb"
+    },
+    {
+      "id": "text",
+      "name": "Text Utilities",
+      "description": "Text processing and enhancement tools",
+      "icon": "Type"
+    },
+    {
+      "id": "chat",
+      "name": "Chat & Conversation",
+      "description": "Interactive AI conversation tools",
+      "icon": "MessageCircle"
+    },
+    {
+      "id": "developer",
+      "name": "Developer Tools",
+      "description": "AI tools for developers and programmers",
+      "icon": "Code"
+    },
+    {
+      "id": "learning",
+      "name": "Learning & Study",
+      "description": "Educational and study assistance tools",
+      "icon": "GraduationCap"
+    },
+    {
+      "id": "fun",
+      "name": "Fun & Viral",
+      "description": "Entertainment and viral content tools",
+      "icon": "Smile"
+    }
+  ],
+  "tools": [
+    {
+      "id": "ai-paraphraser",
+      "title": "AI Paraphraser",
+      "description": "Rephrase text with different tones - formal, casual, or funny",
+      "category": "writing",
+      "url": "/tools/writing/ai-paraphraser",
+      "icon": "RotateCcw",
+      "status": "active",
+      "keywords": ["paraphrase", "rewrite", "text", "tone"],
+      "features": ["Multiple tone options", "Instant results", "Copy to clipboard"]
+    },
+    {
+      "id": "tweet-generator",
+      "title": "Tweet Generator",
+      "description": "Generate catchy tweets from any topic with optimal engagement",
+      "category": "writing",
+      "url": "/tools/writing/tweet-generator",
+      "icon": "Twitter",
+      "status": "active",
+      "keywords": ["twitter", "tweets", "social media", "engagement"],
+      "features": ["Multiple tweet variations", "Character count", "Hashtag suggestions"]
+    },
+    {
+      "id": "linkedin-post-formatter",
+      "title": "LinkedIn Post Formatter",
+      "description": "Format posts with emojis, structure, and hashtags for LinkedIn",
+      "category": "writing",
+      "url": "/tools/writing/linkedin-post-formatter",
+      "icon": "Linkedin",
+      "status": "active",
+      "keywords": ["linkedin", "professional", "post", "format"],
+      "features": ["Professional formatting", "Emoji integration", "Hashtag optimization"]
+    },
+    {
+      "id": "email-rewriter",
+      "title": "Email Rewriter",
+      "description": "Rewrite emails to sound more polite, persuasive, or concise",
+      "category": "writing",
+      "url": "/tools/writing/email-rewriter",
+      "icon": "Mail",
+      "status": "active",
+      "keywords": ["email", "rewrite", "professional", "communication"],
+      "features": ["Tone adjustment", "Professional language", "Clarity improvement"]
+    },
+    {
+      "id": "instagram-caption-generator",
+      "title": "Instagram Caption Generator",
+      "description": "Create engaging Instagram captions with relevant hashtags",
+      "category": "writing",
+      "url": "/tools/writing/instagram-caption-generator",
+      "icon": "Instagram",
+      "status": "active",
+      "keywords": ["instagram", "caption", "hashtags", "social media"],
+      "features": ["Engaging captions", "Hashtag suggestions", "Multiple variations"]
+    },
+    {
+      "id": "cold-dm-generator",
+      "title": "Cold DM Generator",
+      "description": "Generate effective outreach messages for Twitter and LinkedIn",
+      "category": "writing",
+      "url": "/tools/writing/cold-dm-generator",
+      "icon": "Send",
+      "status": "active",
+      "keywords": ["outreach", "dm", "cold message", "networking"],
+      "features": ["Personalized messages", "High conversion rates", "Platform optimization"]
+    },
+    {
+      "id": "product-description-writer",
+      "title": "Product Description Writer",
+      "description": "Generate compelling e-commerce product descriptions",
+      "category": "writing",
+      "url": "/tools/writing/product-description-writer",
+      "icon": "Package",
+      "status": "active",
+      "keywords": ["product", "description", "ecommerce", "sales"],
+      "features": ["SEO optimized", "Conversion focused", "Feature highlighting"]
+    },
+    {
+      "id": "ai-headline-maker",
+      "title": "AI Headline Maker",
+      "description": "Generate catchy headlines from article text or topics",
+      "category": "writing",
+      "url": "/tools/writing/ai-headline-maker",
+      "icon": "Newspaper",
+      "status": "active",
+      "keywords": ["headline", "title", "article", "blog"],
+      "features": ["Click-worthy headlines", "SEO friendly", "Multiple variations"]
+    },
+    {
+      "id": "startup-idea-generator",
+      "title": "Startup Idea Generator",
+      "description": "Generate innovative startup ideas around any keyword or industry",
+      "category": "creativity",
+      "url": "/tools/creativity/startup-idea-generator",
+      "icon": "Rocket",
+      "status": "active",
+      "keywords": ["startup", "business", "ideas", "entrepreneurship"],
+      "features": ["Market analysis", "Unique concepts", "Validation tips"]
+    },
+    {
+      "id": "video-script-generator",
+      "title": "Video Script Generator",
+      "description": "Create YouTube and Shorts script outlines from any topic",
+      "category": "creativity",
+      "url": "/tools/creativity/video-script-generator",
+      "icon": "Video",
+      "status": "active",
+      "keywords": ["video", "script", "youtube", "content"],
+      "features": ["Hook creation", "Structured flow", "Call-to-action"]
+    },
+    {
+      "id": "app-name-generator",
+      "title": "App Name Generator",
+      "description": "Generate unique app names with domain availability check",
+      "category": "creativity",
+      "url": "/tools/creativity/app-name-generator",
+      "icon": "Smartphone",
+      "status": "active",
+      "keywords": ["app", "name", "branding", "domain"],
+      "features": ["Creative names", "Domain check", "Trademark insights"]
+    },
+    {
+      "id": "slogan-generator",
+      "title": "Slogan Generator",
+      "description": "Create memorable slogans and taglines for your brand",
+      "category": "creativity",
+      "url": "/tools/creativity/slogan-generator",
+      "icon": "Megaphone",
+      "status": "active",
+      "keywords": ["slogan", "tagline", "branding", "marketing"],
+      "features": ["Brand alignment", "Memorable phrases", "Industry specific"]
+    },
+    {
+      "id": "ai-brainstorm-buddy",
+      "title": "AI Brainstorm Buddy",
+      "description": "Collaborative brainstorming partner for creative ideas",
+      "category": "creativity",
+      "url": "/tools/creativity/ai-brainstorm-buddy",
+      "icon": "Brain",
+      "status": "active",
+      "keywords": ["brainstorm", "ideas", "creativity", "collaboration"],
+      "features": ["Interactive sessions", "Idea expansion", "Creative prompts"]
+    },
+    {
+      "id": "summarizer",
+      "title": "Text Summarizer",
+      "description": "Generate short, medium, or long summaries of any text",
+      "category": "text",
+      "url": "/tools/text/summarizer",
+      "icon": "FileText",
+      "status": "active",
+      "keywords": ["summarize", "summary", "text", "condense"],
+      "features": ["Multiple lengths", "Key points extraction", "Accuracy focused"]
+    },
+    {
+      "id": "text-expander",
+      "title": "Text Expander",
+      "description": "Expand short notes into comprehensive paragraphs",
+      "category": "text",
+      "url": "/tools/text/text-expander",
+      "icon": "Expand",
+      "status": "active",
+      "keywords": ["expand", "elaborate", "text", "detail"],
+      "features": ["Context preservation", "Natural flow", "Detail addition"]
+    },
+    {
+      "id": "text-simplifier",
+      "title": "Text Simplifier",
+      "description": "Simplify complex text into easy-to-understand language",
+      "category": "text",
+      "url": "/tools/text/text-simplifier",
+      "icon": "Minimize",
+      "status": "active",
+      "keywords": ["simplify", "easy", "readable", "plain"],
+      "features": ["Grade level control", "Clarity focus", "Meaning preservation"]
+    },
+    {
+      "id": "grammar-corrector",
+      "title": "Grammar & Tone Corrector",
+      "description": "Fix grammar and improve tone for natural communication",
+      "category": "text",
+      "url": "/tools/text/grammar-corrector",
+      "icon": "CheckCircle",
+      "status": "active",
+      "keywords": ["grammar", "correction", "tone", "writing"],
+      "features": ["Grammar fixing", "Tone adjustment", "Style improvement"]
+    },
+    {
+      "id": "ad-copy-optimizer",
+      "title": "Ad Copy Optimizer",
+      "description": "Optimize ad copy for higher CTR and engagement",
+      "category": "text",
+      "url": "/tools/text/ad-copy-optimizer",
+      "icon": "Target",
+      "status": "active",
+      "keywords": ["ad copy", "advertising", "ctr", "conversion"],
+      "features": ["CTR optimization", "A/B testing", "Platform specific"]
+    },
+    {
+      "id": "seo-meta-generator",
+      "title": "SEO Meta Generator",
+      "description": "Generate SEO title and meta description from content",
+      "category": "text",
+      "url": "/tools/text/seo-meta-generator",
+      "icon": "Search",
+      "status": "active",
+      "keywords": ["seo", "meta", "title", "description"],
+      "features": ["SEO optimized", "Character limits", "Keyword focus"]
+    },
+    {
+      "id": "chatgpt-chatbot",
+      "title": "ChatGPT Chatbot",
+      "description": "Intelligent AI chatbot for any questions and conversations",
+      "category": "chat",
+      "url": "/tools/chat/chatgpt-chatbot",
+      "icon": "MessageSquare",
+      "status": "active",
+      "keywords": ["chatbot", "ai", "conversation", "questions"],
+      "features": ["Natural conversation", "Context awareness", "Multi-topic"]
+    },
+    {
+      "id": "persona-chatbot",
+      "title": "Persona Chatbot Builder",
+      "description": "Create chatbots with specific personalities like famous figures",
+      "category": "chat",
+      "url": "/tools/chat/persona-chatbot",
+      "icon": "Users",
+      "status": "active",
+      "keywords": ["persona", "personality", "character", "roleplay"],
+      "features": ["Famous personalities", "Custom personas", "Consistent character"]
+    },
+    {
+      "id": "interview-simulator",
+      "title": "Interview Simulator",
+      "description": "Practice interviews with AI that asks realistic questions",
+      "category": "chat",
+      "url": "/tools/chat/interview-simulator",
+      "icon": "Briefcase",
+      "status": "active",
+      "keywords": ["interview", "practice", "job", "preparation"],
+      "features": ["Industry specific", "Feedback provided", "Difficulty levels"]
+    },
+    {
+      "id": "therapy-chat",
+      "title": "AI Therapy Chat",
+      "description": "Supportive AI companion for emotional well-being",
+      "category": "chat",
+      "url": "/tools/chat/therapy-chat",
+      "icon": "Heart",
+      "status": "active",
+      "keywords": ["therapy", "emotional", "support", "mental health"],
+      "features": ["Empathetic responses", "Privacy focused", "Supportive guidance"]
+    },
+    {
+      "id": "coding-assistant",
+      "title": "Coding Assistant",
+      "description": "AI-powered code explainer and debugging helper",
+      "category": "developer",
+      "url": "/tools/developer/coding-assistant",
+      "icon": "Terminal",
+      "status": "active",
+      "keywords": ["code", "programming", "debug", "explain"],
+      "features": ["Multi-language support", "Bug detection", "Code explanation"]
+    },
+    {
+      "id": "code-explainer",
+      "title": "Code Explainer",
+      "description": "Explain any code snippet in simple English",
+      "category": "developer",
+      "url": "/tools/developer/code-explainer",
+      "icon": "Code2",
+      "status": "active",
+      "keywords": ["code", "explain", "documentation", "understanding"],
+      "features": ["Plain English", "Line by line", "Concept breakdown"]
+    },
+    {
+      "id": "regex-generator",
+      "title": "Regex Generator",
+      "description": "Generate regular expressions from plain English descriptions",
+      "category": "developer",
+      "url": "/tools/developer/regex-generator",
+      "icon": "Regex",
+      "status": "active",
+      "keywords": ["regex", "regular expression", "pattern", "matching"],
+      "features": ["Pattern generation", "Test examples", "Explanation included"]
+    },
+    {
+      "id": "commit-message-generator",
+      "title": "Commit Message Generator",
+      "description": "Generate clean git commit messages from code changes",
+      "category": "developer",
+      "url": "/tools/developer/commit-message-generator",
+      "icon": "GitCommit",
+      "status": "active",
+      "keywords": ["git", "commit", "message", "version control"],
+      "features": ["Conventional format", "Clear descriptions", "Change analysis"]
+    },
+    {
+      "id": "sql-query-generator",
+      "title": "SQL Query Generator",
+      "description": "Generate SQL queries from natural language descriptions",
+      "category": "developer",
+      "url": "/tools/developer/sql-query-generator",
+      "icon": "Database",
+      "status": "active",
+      "keywords": ["sql", "query", "database", "generation"],
+      "features": ["Multi-database support", "Query optimization", "Syntax checking"]
+    },
+    {
+      "id": "notes-summarizer",
+      "title": "Notes Summarizer",
+      "description": "Condense your study notes into key points",
+      "category": "learning",
+      "url": "/tools/learning/notes-summarizer",
+      "icon": "BookOpen",
+      "status": "active",
+      "keywords": ["notes", "study", "summarize", "learning"],
+      "features": ["Key points extraction", "Study guides", "Topic organization"]
+    },
+    {
+      "id": "flashcard-maker",
+      "title": "Flashcard Maker",
+      "description": "Transform text into interactive Q&A flashcards",
+      "category": "learning",
+      "url": "/tools/learning/flashcard-maker",
+      "icon": "Cards",
+      "status": "active",
+      "keywords": ["flashcards", "study", "memorization", "quiz"],
+      "features": ["Auto generation", "Smart questions", "Study tracking"]
+    },
+    {
+      "id": "explain-like-5",
+      "title": "Explain Like I'm 5",
+      "description": "Simplify complex concepts for easy understanding",
+      "category": "learning",
+      "url": "/tools/learning/explain-like-5",
+      "icon": "Baby",
+      "status": "active",
+      "keywords": ["explain", "simple", "concepts", "learning"],
+      "features": ["Simple language", "Examples included", "Age appropriate"]
+    },
+    {
+      "id": "quiz-generator",
+      "title": "Quiz Generator",
+      "description": "Create quiz questions from any text or topic",
+      "category": "learning",
+      "url": "/tools/learning/quiz-generator",
+      "icon": "HelpCircle",
+      "status": "active",
+      "keywords": ["quiz", "questions", "test", "assessment"],
+      "features": ["Multiple formats", "Difficulty levels", "Answer explanations"]
+    },
+    {
+      "id": "study-planner",
+      "title": "AI Study Planner",
+      "description": "Create personalized study schedules from your syllabus",
+      "category": "learning",
+      "url": "/tools/learning/study-planner",
+      "icon": "Calendar",
+      "status": "active",
+      "keywords": ["study", "planner", "schedule", "organization"],
+      "features": ["Custom schedules", "Goal tracking", "Progress monitoring"]
+    },
+    {
+      "id": "roast-my-bio",
+      "title": "Roast My Bio",
+      "description": "Get a humorous roast of your social media bio",
+      "category": "fun",
+      "url": "/tools/fun/roast-my-bio",
+      "icon": "Flame",
+      "status": "active",
+      "keywords": ["roast", "humor", "bio", "funny"],
+      "features": ["Witty humor", "Constructive feedback", "Entertainment value"]
+    },
+    {
+      "id": "compliment-generator",
+      "title": "AI Compliment Generator",
+      "description": "Generate personalized compliments for any occasion",
+      "category": "fun",
+      "url": "/tools/fun/compliment-generator",
+      "icon": "Star",
+      "status": "active",
+      "keywords": ["compliment", "positive", "encouragement", "nice"],
+      "features": ["Personalized", "Genuine tone", "Mood boosting"]
+    },
+    {
+      "id": "vibe-analyzer",
+      "title": "What's My Vibe?",
+      "description": "Analyze the vibe and mood of your text or posts",
+      "category": "fun",
+      "url": "/tools/fun/vibe-analyzer",
+      "icon": "Zap",
+      "status": "active",
+      "keywords": ["vibe", "mood", "analysis", "personality"],
+      "features": ["Mood detection", "Personality insights", "Style analysis"]
+    },
+    {
+      "id": "ai-poem-generator",
+      "title": "AI Poem Generator",
+      "description": "Create beautiful poems from prompts or themes",
+      "category": "fun",
+      "url": "/tools/fun/ai-poem-generator",
+      "icon": "Feather",
+      "status": "active",
+      "keywords": ["poem", "poetry", "creative", "writing"],
+      "features": ["Multiple styles", "Rhyme schemes", "Emotional depth"]
+    }
+  ]
+}
