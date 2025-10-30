@@ -11,7 +11,7 @@ export function HeroSection() {
         {/* Hero Badge */}
         <div className="inline-flex items-center px-3 py-1 rounded-full border bg-background/50 text-sm mb-8">
           <Sparkles className="h-4 w-4 mr-2 text-yellow-500" />
-          30+ AI Tools • Free Forever • No Signup Required
+          150+ AI Tools • Free Forever • No Signup Required
         </div>
 
         {/* Main Heading */}
@@ -24,7 +24,7 @@ export function HeroSection() {
 
         {/* Subheading */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Discover 30+ powerful AI tools for writing, creativity, coding, and productivity. 
+          Discover 150+ powerful AI tools for writing, creativity, coding, SEO, design, and productivity.
           All powered by ChatGPT, completely free, and ready to use instantly.
         </p>
 
@@ -37,7 +37,7 @@ export function HeroSection() {
             </Link>
           </Button>
           <Button size="lg" variant="outline" className="text-lg px-8 py-6" asChild>
-            <Link href="/tools/chat/chatgpt-chatbot">
+            <Link href="/chat/chatgpt-chatbot">
               Try ChatGPT Bot
               <Zap className="ml-2 h-5 w-5" />
             </Link>
@@ -47,7 +47,7 @@ export function HeroSection() {
         {/* Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary mb-2">30+</div>
+            <div className="text-3xl font-bold text-primary mb-2">150+</div>
             <div className="text-muted-foreground">AI Tools</div>
           </div>
           <div className="text-center">

@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { ToolContainer } from "@/components/tool-container";
 import toolsData from "@/lib/tools.json";
 import * as LucideIcons from "lucide-react";
@@ -38,6 +39,36 @@ export default function DynamicToolPage({ params }: { params: Params }) {
       icon={toolData.icon}
     >
       <div className="space-y-6">
+        {/* JSON-LD for SoftwareApplication */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              name: toolData.title,
+              applicationCategory: "UtilitiesApplication",
+              operatingSystem: "Web Browser",
+              description: toolData.description,
+              url: `https://ai-tools.30tools.com${toolData.url}`,
+              offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                { "@type": "ListItem", position: 1, name: "Home", item: "https://ai-tools.30tools.com/" },
+                { "@type": "ListItem", position: 2, name: "Tools", item: "https://ai-tools.30tools.com/tools" },
+                { "@type": "ListItem", position: 3, name: toolData.title, item: `https://ai-tools.30tools.com${toolData.url}` },
+              ],
+            }),
+          }}
+        />
         <div className="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-sm border border-gray-200 dark:border-gray-700">
           <div className="text-center py-12">
             <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -86,4 +117,32 @@ export async function generateStaticParams() {
     category: tool.category,
     tool: tool.id,
   }));
+}
+
+export function generateMetadata({ params }: { params: Params }): Metadata {
+  const toolData = toolsData.tools.find((t) => t.id === params.tool);
+  if (!toolData) return {};
+  const title = `${toolData.title} | 30tools`;
+  const description = toolData.description;
+  const url = `https://ai-tools.30tools.com${toolData.url}`;
+  const images = ["/og-image.png"];
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title,
+      description,
+      url,
+      type: "website",
+      siteName: "30tools",
+      images,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images,
+    },
+  };
 }

@@ -12,8 +12,8 @@ import { PWAUpdatePrompt } from "@/components/pwa-update-prompt";
 import toolsData from "@/lib/tools.json";
 
 export const metadata: Metadata = {
-  title: "30tools - Free AI Tools Collection | Best AI Utilities 2025",
-  description: "Discover 30+ free AI tools for writing, creativity, coding, and productivity. ChatGPT-powered utilities including text summarizer, paraphraser, tweet generator, and more. No signup required.",
+  title: "30tools - 150+ Free AI Tools Collection | Best AI Utilities 2025",
+  description: "Discover 150+ free AI tools for writing, creativity, coding, SEO, design, and productivity. ChatGPT-powered utilities including text summarizer, paraphraser, tweet generator, and more. No signup required.",
   alternates: {
     canonical: "https://ai-tools.30tools.com",
   },

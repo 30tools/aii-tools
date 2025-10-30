@@ -33,11 +33,11 @@ export function Header() {
           <Link href="/categories" className="text-sm font-medium hover:text-primary transition-colors">
             Categories
           </Link>
+          <Link href="/search" className="text-sm font-medium hover:text-primary transition-colors">
+            Search
+          </Link>
           <Link href="/about" className="text-sm font-medium hover:text-primary transition-colors">
             About
-          </Link>
-          <Link href="/contact" className="text-sm font-medium hover:text-primary transition-colors">
-            Contact
           </Link>
         </nav>
 
@@ -71,36 +71,43 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden border-t bg-background">
           <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-            <Link 
-              href="/" 
+            <Link
+              href="/"
               className="text-sm font-medium hover:text-primary transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
-            <Link 
-              href="/tools" 
+            <Link
+              href="/tools"
               className="text-sm font-medium hover:text-primary transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               All Tools
             </Link>
-            <Link 
-              href="/categories" 
+            <Link
+              href="/categories"
               className="text-sm font-medium hover:text-primary transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Categories
             </Link>
-            <Link 
-              href="/about" 
+            <Link
+              href="/search"
+              className="text-sm font-medium hover:text-primary transition-colors py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Search
+            </Link>
+            <Link
+              href="/about"
               className="text-sm font-medium hover:text-primary transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="text-sm font-medium hover:text-primary transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >

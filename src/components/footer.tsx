@@ -36,22 +36,22 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Popular Tools</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/tools/text/summarizer" className="text-muted-foreground hover:text-primary">
+                <Link href="/text/summarizer" className="text-muted-foreground hover:text-primary">
                   Text Summarizer
                 </Link>
               </li>
               <li>
-                <Link href="/tools/writing/ai-paraphraser" className="text-muted-foreground hover:text-primary">
+                <Link href="/writing/ai-paraphraser" className="text-muted-foreground hover:text-primary">
                   AI Paraphraser
                 </Link>
               </li>
               <li>
-                <Link href="/tools/writing/tweet-generator" className="text-muted-foreground hover:text-primary">
+                <Link href="/writing/tweet-generator" className="text-muted-foreground hover:text-primary">
                   Tweet Generator
                 </Link>
               </li>
               <li>
-                <Link href="/tools/chat/chatgpt-chatbot" className="text-muted-foreground hover:text-primary">
+                <Link href="/chat/chatgpt-chatbot" className="text-muted-foreground hover:text-primary">
                   ChatGPT Chatbot
                 </Link>
               </li>

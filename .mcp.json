@@ -3,6 +3,17 @@
     "stack-auth": {
       "type": "http",
       "url": "https://mcp.stack-auth.com/"
+    },
+    "seo-mcp": {
+      "command": "uvx",
+      "args": [
+        "seo-mcp@latest"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
     }
   }
 }

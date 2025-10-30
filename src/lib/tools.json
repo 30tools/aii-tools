@@ -1,84 +1,96 @@
 {
-   "categories": [
-     {
-       "id": "writing",
-       "name": "Writing & Content",
-       "description": "AI-powered writing and content creation tools",
-       "icon": "PenTool"
-     },
-     {
-       "id": "creativity",
-       "name": "Idea & Creativity",
-       "description": "Generate creative ideas and concepts",
-       "icon": "Lightbulb"
-     },
-     {
-       "id": "text",
-       "name": "Text Utilities",
-       "description": "Text processing and enhancement tools",
-       "icon": "Type"
-     },
-     {
-       "id": "chat",
-       "name": "Chat & Conversation",
-       "description": "Interactive AI conversation tools",
-       "icon": "MessageCircle"
-     },
-     {
-       "id": "developer",
-       "name": "Developer Tools",
-       "description": "AI tools for developers and programmers",
-       "icon": "Code"
-     },
-     {
-       "id": "learning",
-       "name": "Learning & Study",
-       "description": "Educational and study assistance tools",
-       "icon": "GraduationCap"
-     },
-     {
-       "id": "fun",
-       "name": "Fun & Viral",
-       "description": "Entertainment and viral content tools",
-       "icon": "Smile"
-     },
-     {
-       "id": "business",
-       "name": "Business & Marketing",
-       "description": "AI tools for business and marketing",
-       "icon": "Briefcase"
-     },
-     {
-       "id": "design",
-       "name": "Design & Media",
-       "description": "AI tools for design and media creation",
-       "icon": "Palette"
-     },
-     {
-       "id": "seo",
-       "name": "SEO & Analytics",
-       "description": "AI tools for SEO and analytics",
-       "icon": "BarChart3"
-     },
-     {
-       "id": "social",
-       "name": "Social Media",
-       "description": "AI tools for social media management",
-       "icon": "Share"
-     },
-     {
-       "id": "health",
-       "name": "Health & Wellness",
-       "description": "AI tools for health and wellness",
-       "icon": "HeartPulse"
-     },
-     {
-       "id": "finance",
-       "name": "Finance & Investment",
-       "description": "AI tools for finance and investment",
-       "icon": "DollarSign"
-     }
-   ],
+  "categories": [
+    {
+      "id": "writing",
+      "name": "Writing & Content",
+      "description": "AI-powered writing and content creation tools",
+      "icon": "PenTool"
+    },
+    {
+      "id": "creativity",
+      "name": "Idea & Creativity",
+      "description": "Generate creative ideas and concepts",
+      "icon": "Lightbulb"
+    },
+    {
+      "id": "text",
+      "name": "Text Utilities",
+      "description": "Text processing and enhancement tools",
+      "icon": "Type"
+    },
+    {
+      "id": "chat",
+      "name": "Chat & Conversation",
+      "description": "Interactive AI conversation tools",
+      "icon": "MessageCircle"
+    },
+    {
+      "id": "developer",
+      "name": "Developer Tools",
+      "description": "AI tools for developers and programmers",
+      "icon": "Code"
+    },
+    {
+      "id": "learning",
+      "name": "Learning & Study",
+      "description": "Educational and study assistance tools",
+      "icon": "GraduationCap"
+    },
+    {
+      "id": "fun",
+      "name": "Fun & Viral",
+      "description": "Entertainment and viral content tools",
+      "icon": "Smile"
+    },
+    {
+      "id": "business",
+      "name": "Business & Marketing",
+      "description": "AI tools for business and marketing",
+      "icon": "Briefcase"
+    },
+    {
+      "id": "design",
+      "name": "Design & Media",
+      "description": "AI tools for design and media creation",
+      "icon": "Palette"
+    },
+    {
+      "id": "seo",
+      "name": "SEO & Analytics",
+      "description": "AI tools for SEO and analytics",
+      "icon": "BarChart3"
+    },
+    {
+      "id": "social",
+      "name": "Social Media",
+      "description": "AI tools for social media management",
+      "icon": "Share"
+    },
+    {
+      "id": "health",
+      "name": "Health & Wellness",
+      "description": "AI tools for health and wellness",
+      "icon": "HeartPulse"
+    },
+    {
+      "id": "finance",
+      "name": "Finance & Investment",
+      "description": "AI tools for finance and investment",
+      "icon": "DollarSign"
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "description": "Tools to boost your productivity",
+      "icon": "Zap"
+    },
+    {
+      "id": "utilities",
+      "name": "Utilities",
+      "description": "Useful utility tools for everyday tasks",
+      "icon": "Wrench"
+    }
+  ],
   "tools": [
     {
       "id": "ai-paraphraser",
@@ -88,8 +100,17 @@
       "url": "/writing/ai-paraphraser",
       "icon": "RotateCcw",
       "status": "active",
-      "keywords": ["paraphrase", "rewrite", "text", "tone"],
-      "features": ["Multiple tone options", "Instant results", "Copy to clipboard"]
+      "keywords": [
+        "paraphrase",
+        "rewrite",
+        "text",
+        "tone"
+      ],
+      "features": [
+        "Multiple tone options",
+        "Instant results",
+        "Copy to clipboard"
+      ]
     },
     {
       "id": "tweet-generator",
@@ -99,8 +120,17 @@
       "url": "/writing/tweet-generator",
       "icon": "Twitter",
       "status": "active",
-      "keywords": ["twitter", "tweets", "social media", "engagement"],
-      "features": ["Multiple tweet variations", "Character count", "Hashtag suggestions"]
+      "keywords": [
+        "twitter",
+        "tweets",
+        "social media",
+        "engagement"
+      ],
+      "features": [
+        "Multiple tweet variations",
+        "Character count",
+        "Hashtag suggestions"
+      ]
     },
     {
       "id": "linkedin-post-formatter",
@@ -110,8 +140,17 @@
       "url": "/writing/linkedin-post-formatter",
       "icon": "Linkedin",
       "status": "active",
-      "keywords": ["linkedin", "professional", "post", "format"],
-      "features": ["Professional formatting", "Emoji integration", "Hashtag optimization"]
+      "keywords": [
+        "linkedin",
+        "professional",
+        "post",
+        "format"
+      ],
+      "features": [
+        "Professional formatting",
+        "Emoji integration",
+        "Hashtag optimization"
+      ]
     },
     {
       "id": "email-rewriter",
@@ -121,8 +160,17 @@
       "url": "/writing/email-rewriter",
       "icon": "Mail",
       "status": "active",
-      "keywords": ["email", "rewrite", "professional", "communication"],
-      "features": ["Tone adjustment", "Professional language", "Clarity improvement"]
+      "keywords": [
+        "email",
+        "rewrite",
+        "professional",
+        "communication"
+      ],
+      "features": [
+        "Tone adjustment",
+        "Professional language",
+        "Clarity improvement"
+      ]
     },
     {
       "id": "instagram-caption-generator",
@@ -132,8 +180,17 @@
       "url": "/writing/instagram-caption-generator",
       "icon": "Instagram",
       "status": "active",
-      "keywords": ["instagram", "caption", "hashtags", "social media"],
-      "features": ["Engaging captions", "Hashtag suggestions", "Multiple variations"]
+      "keywords": [
+        "instagram",
+        "caption",
+        "hashtags",
+        "social media"
+      ],
+      "features": [
+        "Engaging captions",
+        "Hashtag suggestions",
+        "Multiple variations"
+      ]
     },
     {
       "id": "cold-dm-generator",
@@ -143,8 +200,17 @@
       "url": "/writing/cold-dm-generator",
       "icon": "Send",
       "status": "active",
-      "keywords": ["outreach", "dm", "cold message", "networking"],
-      "features": ["Personalized messages", "High conversion rates", "Platform optimization"]
+      "keywords": [
+        "outreach",
+        "dm",
+        "cold message",
+        "networking"
+      ],
+      "features": [
+        "Personalized messages",
+        "High conversion rates",
+        "Platform optimization"
+      ]
     },
     {
       "id": "product-description-writer",
@@ -154,8 +220,17 @@
       "url": "/writing/product-description-writer",
       "icon": "Package",
       "status": "active",
-      "keywords": ["product", "description", "ecommerce", "sales"],
-      "features": ["SEO optimized", "Conversion focused", "Feature highlighting"]
+      "keywords": [
+        "product",
+        "description",
+        "ecommerce",
+        "sales"
+      ],
+      "features": [
+        "SEO optimized",
+        "Conversion focused",
+        "Feature highlighting"
+      ]
     },
     {
       "id": "ai-headline-maker",
@@ -165,8 +240,17 @@
       "url": "/writing/ai-headline-maker",
       "icon": "Newspaper",
       "status": "active",
-      "keywords": ["headline", "title", "article", "blog"],
-      "features": ["Click-worthy headlines", "SEO friendly", "Multiple variations"]
+      "keywords": [
+        "headline",
+        "title",
+        "article",
+        "blog"
+      ],
+      "features": [
+        "Click-worthy headlines",
+        "SEO friendly",
+        "Multiple variations"
+      ]
     },
     {
       "id": "startup-idea-generator",
@@ -176,8 +260,17 @@
       "url": "/creativity/startup-idea-generator",
       "icon": "Rocket",
       "status": "active",
-      "keywords": ["startup", "business", "ideas", "entrepreneurship"],
-      "features": ["Market analysis", "Unique concepts", "Validation tips"]
+      "keywords": [
+        "startup",
+        "business",
+        "ideas",
+        "entrepreneurship"
+      ],
+      "features": [
+        "Market analysis",
+        "Unique concepts",
+        "Validation tips"
+      ]
     },
     {
       "id": "video-script-generator",
@@ -187,8 +280,17 @@
       "url": "/creativity/video-script-generator",
       "icon": "Video",
       "status": "active",
-      "keywords": ["video", "script", "youtube", "content"],
-      "features": ["Hook creation", "Structured flow", "Call-to-action"]
+      "keywords": [
+        "video",
+        "script",
+        "youtube",
+        "content"
+      ],
+      "features": [
+        "Hook creation",
+        "Structured flow",
+        "Call-to-action"
+      ]
     },
     {
       "id": "app-name-generator",
@@ -198,8 +300,17 @@
       "url": "/creativity/app-name-generator",
       "icon": "Smartphone",
       "status": "active",
-      "keywords": ["app", "name", "branding", "domain"],
-      "features": ["Creative names", "Domain check", "Trademark insights"]
+      "keywords": [
+        "app",
+        "name",
+        "branding",
+        "domain"
+      ],
+      "features": [
+        "Creative names",
+        "Domain check",
+        "Trademark insights"
+      ]
     },
     {
       "id": "slogan-generator",
@@ -209,8 +320,17 @@
       "url": "/creativity/slogan-generator",
       "icon": "Megaphone",
       "status": "active",
-      "keywords": ["slogan", "tagline", "branding", "marketing"],
-      "features": ["Brand alignment", "Memorable phrases", "Industry specific"]
+      "keywords": [
+        "slogan",
+        "tagline",
+        "branding",
+        "marketing"
+      ],
+      "features": [
+        "Brand alignment",
+        "Memorable phrases",
+        "Industry specific"
+      ]
     },
     {
       "id": "ai-brainstorm-buddy",
@@ -220,8 +340,17 @@
       "url": "/creativity/ai-brainstorm-buddy",
       "icon": "Brain",
       "status": "active",
-      "keywords": ["brainstorm", "ideas", "creativity", "collaboration"],
-      "features": ["Interactive sessions", "Idea expansion", "Creative prompts"]
+      "keywords": [
+        "brainstorm",
+        "ideas",
+        "creativity",
+        "collaboration"
+      ],
+      "features": [
+        "Interactive sessions",
+        "Idea expansion",
+        "Creative prompts"
+      ]
     },
     {
       "id": "summarizer",
@@ -231,8 +360,17 @@
       "url": "/text/summarizer",
       "icon": "FileText",
       "status": "active",
-      "keywords": ["summarize", "summary", "text", "condense"],
-      "features": ["Multiple lengths", "Key points extraction", "Accuracy focused"]
+      "keywords": [
+        "summarize",
+        "summary",
+        "text",
+        "condense"
+      ],
+      "features": [
+        "Multiple lengths",
+        "Key points extraction",
+        "Accuracy focused"
+      ]
     },
     {
       "id": "text-expander",
@@ -242,8 +380,17 @@
       "url": "/text/text-expander",
       "icon": "Expand",
       "status": "active",
-      "keywords": ["expand", "elaborate", "text", "detail"],
-      "features": ["Context preservation", "Natural flow", "Detail addition"]
+      "keywords": [
+        "expand",
+        "elaborate",
+        "text",
+        "detail"
+      ],
+      "features": [
+        "Context preservation",
+        "Natural flow",
+        "Detail addition"
+      ]
     },
     {
       "id": "text-simplifier",
@@ -253,8 +400,17 @@
       "url": "/text/text-simplifier",
       "icon": "Minimize",
       "status": "active",
-      "keywords": ["simplify", "easy", "readable", "plain"],
-      "features": ["Grade level control", "Clarity focus", "Meaning preservation"]
+      "keywords": [
+        "simplify",
+        "easy",
+        "readable",
+        "plain"
+      ],
+      "features": [
+        "Grade level control",
+        "Clarity focus",
+        "Meaning preservation"
+      ]
     },
     {
       "id": "grammar-corrector",
@@ -264,8 +420,17 @@
       "url": "/text/grammar-corrector",
       "icon": "CheckCircle",
       "status": "active",
-      "keywords": ["grammar", "correction", "tone", "writing"],
-      "features": ["Grammar fixing", "Tone adjustment", "Style improvement"]
+      "keywords": [
+        "grammar",
+        "correction",
+        "tone",
+        "writing"
+      ],
+      "features": [
+        "Grammar fixing",
+        "Tone adjustment",
+        "Style improvement"
+      ]
     },
     {
       "id": "ad-copy-optimizer",
@@ -275,8 +440,17 @@
       "url": "/text/ad-copy-optimizer",
       "icon": "Target",
       "status": "active",
-      "keywords": ["ad copy", "advertising", "ctr", "conversion"],
-      "features": ["CTR optimization", "A/B testing", "Platform specific"]
+      "keywords": [
+        "ad copy",
+        "advertising",
+        "ctr",
+        "conversion"
+      ],
+      "features": [
+        "CTR optimization",
+        "A/B testing",
+        "Platform specific"
+      ]
     },
     {
       "id": "seo-meta-generator",
@@ -286,8 +460,17 @@
       "url": "/text/seo-meta-generator",
       "icon": "Search",
       "status": "active",
-      "keywords": ["seo", "meta", "title", "description"],
-      "features": ["SEO optimized", "Character limits", "Keyword focus"]
+      "keywords": [
+        "seo",
+        "meta",
+        "title",
+        "description"
+      ],
+      "features": [
+        "SEO optimized",
+        "Character limits",
+        "Keyword focus"
+      ]
     },
     {
       "id": "chatgpt-chatbot",
@@ -297,8 +480,17 @@
       "url": "/chat/chatgpt-chatbot",
       "icon": "MessageSquare",
       "status": "active",
-      "keywords": ["chatbot", "ai", "conversation", "questions"],
-      "features": ["Natural conversation", "Context awareness", "Multi-topic"]
+      "keywords": [
+        "chatbot",
+        "ai",
+        "conversation",
+        "questions"
+      ],
+      "features": [
+        "Natural conversation",
+        "Context awareness",
+        "Multi-topic"
+      ]
     },
     {
       "id": "persona-chatbot",
@@ -308,8 +500,17 @@
       "url": "/chat/persona-chatbot",
       "icon": "Users",
       "status": "active",
-      "keywords": ["persona", "personality", "character", "roleplay"],
-      "features": ["Famous personalities", "Custom personas", "Consistent character"]
+      "keywords": [
+        "persona",
+        "personality",
+        "character",
+        "roleplay"
+      ],
+      "features": [
+        "Famous personalities",
+        "Custom personas",
+        "Consistent character"
+      ]
     },
     {
       "id": "interview-simulator",
@@ -319,8 +520,17 @@
       "url": "/chat/interview-simulator",
       "icon": "Briefcase",
       "status": "active",
-      "keywords": ["interview", "practice", "job", "preparation"],
-      "features": ["Industry specific", "Feedback provided", "Difficulty levels"]
+      "keywords": [
+        "interview",
+        "practice",
+        "job",
+        "preparation"
+      ],
+      "features": [
+        "Industry specific",
+        "Feedback provided",
+        "Difficulty levels"
+      ]
     },
     {
       "id": "therapy-chat",
@@ -330,8 +540,17 @@
       "url": "/chat/therapy-chat",
       "icon": "Heart",
       "status": "active",
-      "keywords": ["therapy", "emotional", "support", "mental health"],
-      "features": ["Empathetic responses", "Privacy focused", "Supportive guidance"]
+      "keywords": [
+        "therapy",
+        "emotional",
+        "support",
+        "mental health"
+      ],
+      "features": [
+        "Empathetic responses",
+        "Privacy focused",
+        "Supportive guidance"
+      ]
     },
     {
       "id": "coding-assistant",
@@ -341,8 +560,17 @@
       "url": "/developer/coding-assistant",
       "icon": "Terminal",
       "status": "active",
-      "keywords": ["code", "programming", "debug", "explain"],
-      "features": ["Multi-language support", "Bug detection", "Code explanation"]
+      "keywords": [
+        "code",
+        "programming",
+        "debug",
+        "explain"
+      ],
+      "features": [
+        "Multi-language support",
+        "Bug detection",
+        "Code explanation"
+      ]
     },
     {
       "id": "code-explainer",
@@ -352,8 +580,17 @@
       "url": "/developer/code-explainer",
       "icon": "Code2",
       "status": "active",
-      "keywords": ["code", "explain", "documentation", "understanding"],
-      "features": ["Plain English", "Line by line", "Concept breakdown"]
+      "keywords": [
+        "code",
+        "explain",
+        "documentation",
+        "understanding"
+      ],
+      "features": [
+        "Plain English",
+        "Line by line",
+        "Concept breakdown"
+      ]
     },
     {
       "id": "regex-generator",
@@ -363,8 +600,17 @@
       "url": "/developer/regex-generator",
       "icon": "Regex",
       "status": "active",
-      "keywords": ["regex", "regular expression", "pattern", "matching"],
-      "features": ["Pattern generation", "Test examples", "Explanation included"]
+      "keywords": [
+        "regex",
+        "regular expression",
+        "pattern",
+        "matching"
+      ],
+      "features": [
+        "Pattern generation",
+        "Test examples",
+        "Explanation included"
+      ]
     },
     {
       "id": "commit-message-generator",
@@ -374,8 +620,17 @@
       "url": "/developer/commit-message-generator",
       "icon": "GitCommit",
       "status": "active",
-      "keywords": ["git", "commit", "message", "version control"],
-      "features": ["Conventional format", "Clear descriptions", "Change analysis"]
+      "keywords": [
+        "git",
+        "commit",
+        "message",
+        "version control"
+      ],
+      "features": [
+        "Conventional format",
+        "Clear descriptions",
+        "Change analysis"
+      ]
     },
     {
       "id": "sql-query-generator",
@@ -385,8 +640,17 @@
       "url": "/developer/sql-query-generator",
       "icon": "Database",
       "status": "active",
-      "keywords": ["sql", "query", "database", "generation"],
-      "features": ["Multi-database support", "Query optimization", "Syntax checking"]
+      "keywords": [
+        "sql",
+        "query",
+        "database",
+        "generation"
+      ],
+      "features": [
+        "Multi-database support",
+        "Query optimization",
+        "Syntax checking"
+      ]
     },
     {
       "id": "notes-summarizer",
@@ -396,8 +660,17 @@
       "url": "/learning/notes-summarizer",
       "icon": "BookOpen",
       "status": "active",
-      "keywords": ["notes", "study", "summarize", "learning"],
-      "features": ["Key points extraction", "Study guides", "Topic organization"]
+      "keywords": [
+        "notes",
+        "study",
+        "summarize",
+        "learning"
+      ],
+      "features": [
+        "Key points extraction",
+        "Study guides",
+        "Topic organization"
+      ]
     },
     {
       "id": "flashcard-maker",
@@ -407,8 +680,17 @@
       "url": "/learning/flashcard-maker",
       "icon": "Cards",
       "status": "active",
-      "keywords": ["flashcards", "study", "memorization", "quiz"],
-      "features": ["Auto generation", "Smart questions", "Study tracking"]
+      "keywords": [
+        "flashcards",
+        "study",
+        "memorization",
+        "quiz"
+      ],
+      "features": [
+        "Auto generation",
+        "Smart questions",
+        "Study tracking"
+      ]
     },
     {
       "id": "explain-like-5",
@@ -418,8 +700,17 @@
       "url": "/learning/explain-like-5",
       "icon": "Baby",
       "status": "active",
-      "keywords": ["explain", "simple", "concepts", "learning"],
-      "features": ["Simple language", "Examples included", "Age appropriate"]
+      "keywords": [
+        "explain",
+        "simple",
+        "concepts",
+        "learning"
+      ],
+      "features": [
+        "Simple language",
+        "Examples included",
+        "Age appropriate"
+      ]
     },
     {
       "id": "quiz-generator",
@@ -429,8 +720,17 @@
       "url": "/learning/quiz-generator",
       "icon": "HelpCircle",
       "status": "active",
-      "keywords": ["quiz", "questions", "test", "assessment"],
-      "features": ["Multiple formats", "Difficulty levels", "Answer explanations"]
+      "keywords": [
+        "quiz",
+        "questions",
+        "test",
+        "assessment"
+      ],
+      "features": [
+        "Multiple formats",
+        "Difficulty levels",
+        "Answer explanations"
+      ]
     },
     {
       "id": "study-planner",
@@ -440,8 +740,17 @@
       "url": "/learning/study-planner",
       "icon": "Calendar",
       "status": "active",
-      "keywords": ["study", "planner", "schedule", "organization"],
-      "features": ["Custom schedules", "Goal tracking", "Progress monitoring"]
+      "keywords": [
+        "study",
+        "planner",
+        "schedule",
+        "organization"
+      ],
+      "features": [
+        "Custom schedules",
+        "Goal tracking",
+        "Progress monitoring"
+      ]
     },
     {
       "id": "roast-my-bio",
@@ -451,8 +760,17 @@
       "url": "/fun/roast-my-bio",
       "icon": "Flame",
       "status": "active",
-      "keywords": ["roast", "humor", "bio", "funny"],
-      "features": ["Witty humor", "Constructive feedback", "Entertainment value"]
+      "keywords": [
+        "roast",
+        "humor",
+        "bio",
+        "funny"
+      ],
+      "features": [
+        "Witty humor",
+        "Constructive feedback",
+        "Entertainment value"
+      ]
     },
     {
       "id": "compliment-generator",
@@ -462,8 +780,17 @@
       "url": "/fun/compliment-generator",
       "icon": "Star",
       "status": "active",
-      "keywords": ["compliment", "positive", "encouragement", "nice"],
-      "features": ["Personalized", "Genuine tone", "Mood boosting"]
+      "keywords": [
+        "compliment",
+        "positive",
+        "encouragement",
+        "nice"
+      ],
+      "features": [
+        "Personalized",
+        "Genuine tone",
+        "Mood boosting"
+      ]
     },
     {
       "id": "vibe-analyzer",
@@ -473,8 +800,17 @@
       "url": "/fun/vibe-analyzer",
       "icon": "Zap",
       "status": "active",
-      "keywords": ["vibe", "mood", "analysis", "personality"],
-      "features": ["Mood detection", "Personality insights", "Style analysis"]
+      "keywords": [
+        "vibe",
+        "mood",
+        "analysis",
+        "personality"
+      ],
+      "features": [
+        "Mood detection",
+        "Personality insights",
+        "Style analysis"
+      ]
     },
     {
       "id": "ai-poem-generator",
@@ -484,8 +820,17 @@
       "url": "/fun/ai-poem-generator",
       "icon": "Feather",
       "status": "active",
-      "keywords": ["poem", "poetry", "creative", "writing"],
-      "features": ["Multiple styles", "Rhyme schemes", "Emotional depth"]
+      "keywords": [
+        "poem",
+        "poetry",
+        "creative",
+        "writing"
+      ],
+      "features": [
+        "Multiple styles",
+        "Rhyme schemes",
+        "Emotional depth"
+      ]
     },
     {
       "id": "business-plan-generator",
@@ -495,8 +840,17 @@
       "url": "/business/business-plan-generator",
       "icon": "FileText",
       "status": "active",
-      "keywords": ["business", "plan", "financial", "projection"],
-      "features": ["Market analysis", "Financial projections", "Executive summary"]
+      "keywords": [
+        "business",
+        "plan",
+        "financial",
+        "projection"
+      ],
+      "features": [
+        "Market analysis",
+        "Financial projections",
+        "Executive summary"
+      ]
     },
     {
       "id": "logo-maker",
@@ -506,8 +860,17 @@
       "url": "/design/logo-maker",
       "icon": "Image",
       "status": "active",
-      "keywords": ["logo", "brand", "design", "visual"],
-      "features": ["Multiple styles", "Customizable colors", "Vector formats"]
+      "keywords": [
+        "logo",
+        "brand",
+        "design",
+        "visual"
+      ],
+      "features": [
+        "Multiple styles",
+        "Customizable colors",
+        "Vector formats"
+      ]
     },
     {
       "id": "color-palette-generator",
@@ -517,8 +880,17 @@
       "url": "/design/color-palette-generator",
       "icon": "Palette",
       "status": "active",
-      "keywords": ["color", "palette", "design", "scheme"],
-      "features": ["Harmonious combinations", "Accessibility check", "Export options"]
+      "keywords": [
+        "color",
+        "palette",
+        "design",
+        "scheme"
+      ],
+      "features": [
+        "Harmonious combinations",
+        "Accessibility check",
+        "Export options"
+      ]
     },
     {
       "id": "seo-analyzer",
@@ -528,8 +900,17 @@
       "url": "/seo/seo-analyzer",
       "icon": "Search",
       "status": "active",
-      "keywords": ["seo", "analysis", "optimization", "rankings"],
-      "features": ["Keyword analysis", "Technical SEO", "Competitor insights"]
+      "keywords": [
+        "seo",
+        "analysis",
+        "optimization",
+        "rankings"
+      ],
+      "features": [
+        "Keyword analysis",
+        "Technical SEO",
+        "Competitor insights"
+      ]
     },
     {
       "id": "keyword-researcher",
@@ -539,8 +920,17 @@
       "url": "/seo/keyword-researcher",
       "icon": "BarChart3",
       "status": "active",
-      "keywords": ["keyword", "research", "search", "volume"],
-      "features": ["Search volume", "Competition data", "Trend analysis"]
+      "keywords": [
+        "keyword",
+        "research",
+        "search",
+        "volume"
+      ],
+      "features": [
+        "Search volume",
+        "Competition data",
+        "Trend analysis"
+      ]
     },
     {
       "id": "social-media-scheduler",
@@ -550,8 +940,17 @@
       "url": "/social/social-media-scheduler",
       "icon": "Calendar",
       "status": "active",
-      "keywords": ["social", "schedule", "post", "platform"],
-      "features": ["Multi-platform", "Optimal timing", "Analytics tracking"]
+      "keywords": [
+        "social",
+        "schedule",
+        "post",
+        "platform"
+      ],
+      "features": [
+        "Multi-platform",
+        "Optimal timing",
+        "Analytics tracking"
+      ]
     },
     {
       "id": "hashtag-generator",
@@ -561,8 +960,17 @@
       "url": "/social/hashtag-generator",
       "icon": "Hash",
       "status": "active",
-      "keywords": ["hashtag", "social", "engagement", "trending"],
-      "features": ["Platform-specific", "Trending tags", "Engagement focused"]
+      "keywords": [
+        "hashtag",
+        "social",
+        "engagement",
+        "trending"
+      ],
+      "features": [
+        "Platform-specific",
+        "Trending tags",
+        "Engagement focused"
+      ]
     },
     {
       "id": "diet-planner",
@@ -572,8 +980,17 @@
       "url": "/health/diet-planner",
       "icon": "Apple",
       "status": "active",
-      "keywords": ["diet", "nutrition", "health", "meal"],
-      "features": ["Personalized plans", "Nutritional tracking", "Goal oriented"]
+      "keywords": [
+        "diet",
+        "nutrition",
+        "health",
+        "meal"
+      ],
+      "features": [
+        "Personalized plans",
+        "Nutritional tracking",
+        "Goal oriented"
+      ]
     },
     {
       "id": "workout-generator",
@@ -583,8 +1000,17 @@
       "url": "/health/workout-generator",
       "icon": "Dumbbell",
       "status": "active",
-      "keywords": ["workout", "fitness", "exercise", "routine"],
-      "features": ["Goal-based", "Equipment aware", "Progress tracking"]
+      "keywords": [
+        "workout",
+        "fitness",
+        "exercise",
+        "routine"
+      ],
+      "features": [
+        "Goal-based",
+        "Equipment aware",
+        "Progress tracking"
+      ]
     },
     {
       "id": "investment-analyzer",
@@ -594,8 +1020,17 @@
       "url": "/finance/investment-analyzer",
       "icon": "TrendingUp",
       "status": "active",
-      "keywords": ["investment", "portfolio", "analysis", "finance"],
-      "features": ["Risk assessment", "Performance metrics", "Diversification"]
+      "keywords": [
+        "investment",
+        "portfolio",
+        "analysis",
+        "finance"
+      ],
+      "features": [
+        "Risk assessment",
+        "Performance metrics",
+        "Diversification"
+      ]
     },
     {
       "id": "budget-tracker",
@@ -605,8 +1040,17 @@
       "url": "/finance/budget-tracker",
       "icon": "Wallet",
       "status": "active",
-      "keywords": ["budget", "expense", "finance", "tracking"],
-      "features": ["Expense categorization", "Spending insights", "Goal setting"]
+      "keywords": [
+        "budget",
+        "expense",
+        "finance",
+        "tracking"
+      ],
+      "features": [
+        "Expense categorization",
+        "Spending insights",
+        "Goal setting"
+      ]
     },
     {
       "id": "email-template-generator",
@@ -616,8 +1060,17 @@
       "url": "/business/email-template-generator",
       "icon": "Mail",
       "status": "active",
-      "keywords": ["email", "template", "professional", "communication"],
-      "features": ["Multiple purposes", "Industry specific", "Responsive design"]
+      "keywords": [
+        "email",
+        "template",
+        "professional",
+        "communication"
+      ],
+      "features": [
+        "Multiple purposes",
+        "Industry specific",
+        "Responsive design"
+      ]
     },
     {
       "id": "pitch-deck-generator",
@@ -627,8 +1080,17 @@
       "url": "/business/pitch-deck-generator",
       "icon": "Presentation",
       "status": "active",
-      "keywords": ["pitch", "deck", "startup", "presentation"],
-      "features": ["Investor focused", "Proven structure", "Visual elements"]
+      "keywords": [
+        "pitch",
+        "deck",
+        "startup",
+        "presentation"
+      ],
+      "features": [
+        "Investor focused",
+        "Proven structure",
+        "Visual elements"
+      ]
     },
     {
       "id": "favicon-generator",
@@ -638,8 +1100,17 @@
       "url": "/design/favicon-generator",
       "icon": "Image",
       "status": "active",
-      "keywords": ["favicon", "icon", "website", "brand"],
-      "features": ["Multiple formats", "Automatic optimization", "Preview"]
+      "keywords": [
+        "favicon",
+        "icon",
+        "website",
+        "brand"
+      ],
+      "features": [
+        "Multiple formats",
+        "Automatic optimization",
+        "Preview"
+      ]
     },
     {
       "id": "font-combiner",
@@ -649,8 +1120,17 @@
       "url": "/design/font-combiner",
       "icon": "Type",
       "status": "active",
-      "keywords": ["font", "typography", "design", "pairing"],
-      "features": ["Harmonious pairings", "Readability check", "Web-safe fonts"]
+      "keywords": [
+        "font",
+        "typography",
+        "design",
+        "pairing"
+      ],
+      "features": [
+        "Harmonious pairings",
+        "Readability check",
+        "Web-safe fonts"
+      ]
     },
     {
       "id": "backlink-analyzer",
@@ -660,8 +1140,17 @@
       "url": "/seo/backlink-analyzer",
       "icon": "Link",
       "status": "active",
-      "keywords": ["backlink", "authority", "seo", "link"],
-      "features": ["Quality assessment", "Anchor text analysis", "Competitor insights"]
+      "keywords": [
+        "backlink",
+        "authority",
+        "seo",
+        "link"
+      ],
+      "features": [
+        "Quality assessment",
+        "Anchor text analysis",
+        "Competitor insights"
+      ]
     },
     {
       "id": "page-speed-optimizer",
@@ -671,8 +1160,17 @@
       "url": "/seo/page-speed-optimizer",
       "icon": "Zap",
       "status": "active",
-      "keywords": ["speed", "performance", "optimization", "loading"],
-      "features": ["Performance audit", "Optimization suggestions", "Core web vitals"]
+      "keywords": [
+        "speed",
+        "performance",
+        "optimization",
+        "loading"
+      ],
+      "features": [
+        "Performance audit",
+        "Optimization suggestions",
+        "Core web vitals"
+      ]
     },
     {
       "id": "content-calendar",
@@ -682,8 +1180,17 @@
       "url": "/social/content-calendar",
       "icon": "Calendar",
       "status": "active",
-      "keywords": ["content", "calendar", "schedule", "planning"],
-      "features": ["Multi-channel", "Visual planning", "Team collaboration"]
+      "keywords": [
+        "content",
+        "calendar",
+        "schedule",
+        "planning"
+      ],
+      "features": [
+        "Multi-channel",
+        "Visual planning",
+        "Team collaboration"
+      ]
     },
     {
       "id": "influencer-finder",
@@ -693,8 +1200,17 @@
       "url": "/social/influencer-finder",
       "icon": "Users",
       "status": "active",
-      "keywords": ["influencer", "marketing", "social", "outreach"],
-      "features": ["Audience analysis", "Engagement metrics", "Niche matching"]
+      "keywords": [
+        "influencer",
+        "marketing",
+        "social",
+        "outreach"
+      ],
+      "features": [
+        "Audience analysis",
+        "Engagement metrics",
+        "Niche matching"
+      ]
     },
     {
       "id": "meditation-guides",
@@ -704,8 +1220,17 @@
       "url": "/health/meditation-guides",
       "icon": "Meditation",
       "status": "active",
-      "keywords": ["meditation", "mindfulness", "stress", "wellness"],
-      "features": ["Personalized sessions", "Goal-oriented", "Progress tracking"]
+      "keywords": [
+        "meditation",
+        "mindfulness",
+        "stress",
+        "wellness"
+      ],
+      "features": [
+        "Personalized sessions",
+        "Goal-oriented",
+        "Progress tracking"
+      ]
     },
     {
       "id": "sleep-tracker",
@@ -715,8 +1240,17 @@
       "url": "/health/sleep-tracker",
       "icon": "Moon",
       "status": "active",
-      "keywords": ["sleep", "tracker", "health", "wellness"],
-      "features": ["Pattern analysis", "Improvement tips", "Sleep quality"]
+      "keywords": [
+        "sleep",
+        "tracker",
+        "health",
+        "wellness"
+      ],
+      "features": [
+        "Pattern analysis",
+        "Improvement tips",
+        "Sleep quality"
+      ]
     },
     {
       "id": "tax-calculator",
@@ -726,8 +1260,17 @@
       "url": "/finance/tax-calculator",
       "icon": "Calculator",
       "status": "active",
-      "keywords": ["tax", "calculator", "finance", "deduction"],
-      "features": ["Multiple scenarios", "Deduction optimization", "Filing tips"]
+      "keywords": [
+        "tax",
+        "calculator",
+        "finance",
+        "deduction"
+      ],
+      "features": [
+        "Multiple scenarios",
+        "Deduction optimization",
+        "Filing tips"
+      ]
     },
     {
       "id": "loan-comparison",
@@ -737,8 +1280,17 @@
       "url": "/finance/loan-comparison",
       "icon": "DollarSign",
       "status": "active",
-      "keywords": ["loan", "comparison", "finance", "rates"],
-      "features": ["Rate comparison", "Total cost", "Term analysis"]
+      "keywords": [
+        "loan",
+        "comparison",
+        "finance",
+        "rates"
+      ],
+      "features": [
+        "Rate comparison",
+        "Total cost",
+        "Term analysis"
+      ]
     },
     {
       "id": "sales-pitch-generator",
@@ -748,8 +1300,17 @@
       "url": "/business/sales-pitch-generator",
       "icon": "Target",
       "status": "active",
-      "keywords": ["sales", "pitch", "presentation", "conversion"],
-      "features": ["Customer-focused", "Problem-solution", "Call-to-action"]
+      "keywords": [
+        "sales",
+        "pitch",
+        "presentation",
+        "conversion"
+      ],
+      "features": [
+        "Customer-focused",
+        "Problem-solution",
+        "Call-to-action"
+      ]
     },
     {
       "id": "brand-name-generator",
@@ -759,8 +1320,17 @@
       "url": "/business/brand-name-generator",
       "icon": "BadgeCheck",
       "status": "active",
-      "keywords": ["brand", "name", "domain", "trademark"],
-      "features": ["Domain availability", "Trademark check", "Creative options"]
+      "keywords": [
+        "brand",
+        "name",
+        "domain",
+        "trademark"
+      ],
+      "features": [
+        "Domain availability",
+        "Trademark check",
+        "Creative options"
+      ]
     },
     {
       "id": "website-auditor",
@@ -770,8 +1340,17 @@
       "url": "/design/website-auditor",
       "icon": "Scan",
       "status": "active",
-      "keywords": ["website", "audit", "performance", "seo"],
-      "features": ["Technical SEO", "Performance metrics", "UX analysis"]
+      "keywords": [
+        "website",
+        "audit",
+        "performance",
+        "seo"
+      ],
+      "features": [
+        "Technical SEO",
+        "Performance metrics",
+        "UX analysis"
+      ]
     },
     {
       "id": "mockup-generator",
@@ -781,8 +1360,17 @@
       "url": "/design/mockup-generator",
       "icon": "Layout",
       "status": "active",
-      "keywords": ["mockup", "design", "presentation", "product"],
-      "features": ["Multiple devices", "Realistic renders", "Custom backgrounds"]
+      "keywords": [
+        "mockup",
+        "design",
+        "presentation",
+        "product"
+      ],
+      "features": [
+        "Multiple devices",
+        "Realistic renders",
+        "Custom backgrounds"
+      ]
     },
     {
       "id": "content-auditor",
@@ -792,8 +1380,17 @@
       "url": "/seo/content-auditor",
       "icon": "FileSearch",
       "status": "active",
-      "keywords": ["content", "audit", "performance", "optimization"],
-      "features": ["Performance metrics", "Gap analysis", "Optimization tips"]
+      "keywords": [
+        "content",
+        "audit",
+        "performance",
+        "optimization"
+      ],
+      "features": [
+        "Performance metrics",
+        "Gap analysis",
+        "Optimization tips"
+      ]
     },
     {
       "id": "competitor-analyzer",
@@ -803,8 +1400,17 @@
       "url": "/seo/competitor-analyzer",
       "icon": "Users",
       "status": "active",
-      "keywords": ["competitor", "analysis", "strategy", "opportunity"],
-      "features": ["Keyword analysis", "Content strategy", "Traffic insights"]
+      "keywords": [
+        "competitor",
+        "analysis",
+        "strategy",
+        "opportunity"
+      ],
+      "features": [
+        "Keyword analysis",
+        "Content strategy",
+        "Traffic insights"
+      ]
     },
     {
       "id": "story-visualizer",
@@ -814,8 +1420,17 @@
       "url": "/social/story-visualizer",
       "icon": "Layout",
       "status": "active",
-      "keywords": ["story", "visual", "social", "content"],
-      "features": ["Template options", "Brand consistency", "Engagement focus"]
+      "keywords": [
+        "story",
+        "visual",
+        "social",
+        "content"
+      ],
+      "features": [
+        "Template options",
+        "Brand consistency",
+        "Engagement focus"
+      ]
     },
     {
       "id": "engagement-analyzer",
@@ -825,8 +1440,17 @@
       "url": "/social/engagement-analyzer",
       "icon": "BarChart3",
       "status": "active",
-      "keywords": ["engagement", "analytics", "social", "content"],
-      "features": ["Performance metrics", "Optimization tips", "Trend analysis"]
+      "keywords": [
+        "engagement",
+        "analytics",
+        "social",
+        "content"
+      ],
+      "features": [
+        "Performance metrics",
+        "Optimization tips",
+        "Trend analysis"
+      ]
     },
     {
       "id": "habit-tracker",
@@ -836,8 +1460,17 @@
       "url": "/health/habit-tracker",
       "icon": "CheckCircle",
       "status": "active",
-      "keywords": ["habit", "tracker", "health", "productivity"],
-      "features": ["Personalized plans", "Progress tracking", "Motivation tips"]
+      "keywords": [
+        "habit",
+        "tracker",
+        "health",
+        "productivity"
+      ],
+      "features": [
+        "Personalized plans",
+        "Progress tracking",
+        "Motivation tips"
+      ]
     },
     {
       "id": "symptom-checker",
@@ -847,8 +1480,17 @@
       "url": "/health/symptom-checker",
       "icon": "HeartPulse",
       "status": "active",
-      "keywords": ["symptom", "health", "check", "insight"],
-      "features": ["Symptom analysis", "Health insights", "Medical guidance"]
+      "keywords": [
+        "symptom",
+        "health",
+        "check",
+        "insight"
+      ],
+      "features": [
+        "Symptom analysis",
+        "Health insights",
+        "Medical guidance"
+      ]
     },
     {
       "id": "retirement-planner",
@@ -858,8 +1500,17 @@
       "url": "/finance/retirement-planner",
       "icon": "Calendar",
       "status": "active",
-      "keywords": ["retirement", "planning", "finance", "investment"],
-      "features": ["Investment strategies", "Goal planning", "Risk assessment"]
+      "keywords": [
+        "retirement",
+        "planning",
+        "finance",
+        "investment"
+      ],
+      "features": [
+        "Investment strategies",
+        "Goal planning",
+        "Risk assessment"
+      ]
     },
     {
       "id": "expense-splitter",
@@ -869,8 +1520,17 @@
       "url": "/finance/expense-splitter",
       "icon": "Split",
       "status": "active",
-      "keywords": ["expense", "split", "finance", "sharing"],
-      "features": ["Multiple currencies", "Fair distribution", "Tracking"]
+      "keywords": [
+        "expense",
+        "split",
+        "finance",
+        "sharing"
+      ],
+      "features": [
+        "Multiple currencies",
+        "Fair distribution",
+        "Tracking"
+      ]
     },
     {
       "id": "meeting-summarizer",
@@ -880,8 +1540,17 @@
       "url": "/business/meeting-summarizer",
       "icon": "FileText",
       "status": "active",
-      "keywords": ["meeting", "summary", "transcript", "productivity"],
-      "features": ["Action items", "Key decisions", "Follow-up tasks"]
+      "keywords": [
+        "meeting",
+        "summary",
+        "transcript",
+        "productivity"
+      ],
+      "features": [
+        "Action items",
+        "Key decisions",
+        "Follow-up tasks"
+      ]
     },
     {
       "id": "resume-optimizer",
@@ -891,8 +1560,17 @@
       "url": "/business/resume-optimizer",
       "icon": "FileText",
       "status": "active",
-      "keywords": ["resume", "ats", "optimization", "job"],
-      "features": ["ATS compatibility", "Keyword optimization", "ATS scoring"]
+      "keywords": [
+        "resume",
+        "ats",
+        "optimization",
+        "job"
+      ],
+      "features": [
+        "ATS compatibility",
+        "Keyword optimization",
+        "ATS scoring"
+      ]
     },
     {
       "id": "presentation-maker",
@@ -902,8 +1580,17 @@
       "url": "/design/presentation-maker",
       "icon": "Presentation",
       "status": "active",
-      "keywords": ["presentation", "slide", "design", "content"],
-      "features": ["Visual templates", "Content optimization", "Design consistency"]
+      "keywords": [
+        "presentation",
+        "slide",
+        "design",
+        "content"
+      ],
+      "features": [
+        "Visual templates",
+        "Content optimization",
+        "Design consistency"
+      ]
     },
     {
       "id": "icon-generator",
@@ -913,8 +1600,17 @@
       "url": "/design/icon-generator",
       "icon": "Image",
       "status": "active",
-      "keywords": ["icon", "design", "app", "web"],
-      "features": ["Multiple styles", "Vector formats", "Customizable"]
+      "keywords": [
+        "icon",
+        "design",
+        "app",
+        "web"
+      ],
+      "features": [
+        "Multiple styles",
+        "Vector formats",
+        "Customizable"
+      ]
     },
     {
       "id": "meta-description-optimizer",
@@ -924,8 +1620,17 @@
       "url": "/seo/meta-description-optimizer",
       "icon": "Search",
       "status": "active",
-      "keywords": ["meta", "description", "seo", "ctr"],
-      "features": ["CTR optimization", "Character limits", "Keyword inclusion"]
+      "keywords": [
+        "meta",
+        "description",
+        "seo",
+        "ctr"
+      ],
+      "features": [
+        "CTR optimization",
+        "Character limits",
+        "Keyword inclusion"
+      ]
     },
     {
       "id": "sitemap-generator",
@@ -935,8 +1640,17 @@
       "url": "/seo/sitemap-generator",
       "icon": "Map",
       "status": "active",
-      "keywords": ["sitemap", "xml", "indexing", "seo"],
-      "features": ["Automatic generation", "Priority settings", "Change frequency"]
+      "keywords": [
+        "sitemap",
+        "xml",
+        "indexing",
+        "seo"
+      ],
+      "features": [
+        "Automatic generation",
+        "Priority settings",
+        "Change frequency"
+      ]
     },
     {
       "id": "social-listening",
@@ -946,8 +1660,17 @@
       "url": "/social/social-listening",
       "icon": "Mic",
       "status": "active",
-      "keywords": ["social", "monitoring", "brand", "mentions"],
-      "features": ["Real-time monitoring", "Sentiment analysis", "Competitor tracking"]
+      "keywords": [
+        "social",
+        "monitoring",
+        "brand",
+        "mentions"
+      ],
+      "features": [
+        "Real-time monitoring",
+        "Sentiment analysis",
+        "Competitor tracking"
+      ]
     },
     {
       "id": "post-engagement-booster",
@@ -957,8 +1680,17 @@
       "url": "/social/post-engagement-booster",
       "icon": "Zap",
       "status": "active",
-      "keywords": ["engagement", "social", "post", "optimization"],
-      "features": ["Timing optimization", "Content suggestions", "Hashtag strategy"]
+      "keywords": [
+        "engagement",
+        "social",
+        "post",
+        "optimization"
+      ],
+      "features": [
+        "Timing optimization",
+        "Content suggestions",
+        "Hashtag strategy"
+      ]
     },
     {
       "id": "fitness-tracker",
@@ -968,8 +1700,17 @@
       "url": "/health/fitness-tracker",
       "icon": "Activity",
       "status": "active",
-      "keywords": ["fitness", "tracker", "workout", "health"],
-      "features": ["Progress tracking", "Performance insights", "Goal setting"]
+      "keywords": [
+        "fitness",
+        "tracker",
+        "workout",
+        "health"
+      ],
+      "features": [
+        "Progress tracking",
+        "Performance insights",
+        "Goal setting"
+      ]
     },
     {
       "id": "water-intake-tracker",
@@ -979,8 +1720,17 @@
       "url": "/health/water-intake-tracker",
       "icon": "Droplets",
       "status": "active",
-      "keywords": ["water", "hydration", "health", "tracking"],
-      "features": ["Daily goals", "Reminders", "Progress visualization"]
+      "keywords": [
+        "water",
+        "hydration",
+        "health",
+        "tracking"
+      ],
+      "features": [
+        "Daily goals",
+        "Reminders",
+        "Progress visualization"
+      ]
     },
     {
       "id": "investment-portfolio-tracker",
@@ -990,8 +1740,17 @@
       "url": "/finance/investment-portfolio-tracker",
       "icon": "BarChart3",
       "status": "active",
-      "keywords": ["portfolio", "investment", "tracking", "analysis"],
-      "features": ["Performance metrics", "Risk analysis", "Asset allocation"]
+      "keywords": [
+        "portfolio",
+        "investment",
+        "tracking",
+        "analysis"
+      ],
+      "features": [
+        "Performance metrics",
+        "Risk analysis",
+        "Asset allocation"
+      ]
     },
     {
       "id": "crypto-market-analyzer",
@@ -1001,8 +1760,17 @@
       "url": "/finance/crypto-market-analyzer",
       "icon": "Zap",
       "status": "active",
-      "keywords": ["crypto", "market", "analysis", "investment"],
-      "features": ["Trend analysis", "Risk assessment", "Portfolio tracking"]
+      "keywords": [
+        "crypto",
+        "market",
+        "analysis",
+        "investment"
+      ],
+      "features": [
+        "Trend analysis",
+        "Risk assessment",
+        "Portfolio tracking"
+      ]
     },
     {
       "id": "project-manager",
@@ -1012,8 +1780,17 @@
       "url": "/business/project-manager",
       "icon": "Layout",
       "status": "active",
-      "keywords": ["project", "management", "planning", "team"],
-      "features": ["Timeline planning", "Resource allocation", "Risk assessment"]
+      "keywords": [
+        "project",
+        "management",
+        "planning",
+        "team"
+      ],
+      "features": [
+        "Timeline planning",
+        "Resource allocation",
+        "Risk assessment"
+      ]
     },
     {
       "id": "contract-analyzer",
@@ -1023,8 +1800,17 @@
       "url": "/business/contract-analyzer",
       "icon": "FileText",
       "status": "active",
-      "keywords": ["contract", "analysis", "legal", "terms"],
-      "features": ["Risk identification", "Key terms", "Clause review"]
+      "keywords": [
+        "contract",
+        "analysis",
+        "legal",
+        "terms"
+      ],
+      "features": [
+        "Risk identification",
+        "Key terms",
+        "Clause review"
+      ]
     },
     {
       "id": "image-compressor",
@@ -1034,8 +1820,17 @@
       "url": "/design/image-compressor",
       "icon": "Image",
       "status": "active",
-      "keywords": ["image", "compress", "optimize", "quality"],
-      "features": ["Quality preservation", "Multiple formats", "Batch processing"]
+      "keywords": [
+        "image",
+        "compress",
+        "optimize",
+        "quality"
+      ],
+      "features": [
+        "Quality preservation",
+        "Multiple formats",
+        "Batch processing"
+      ]
     },
     {
       "id": "video-thumbnail-generator",
@@ -1045,8 +1840,17 @@
       "url": "/design/video-thumbnail-generator",
       "icon": "Video",
       "status": "active",
-      "keywords": ["thumbnail", "video", "design", "engagement"],
-      "features": ["Engagement focused", "Platform optimized", "Brand consistency"]
+      "keywords": [
+        "thumbnail",
+        "video",
+        "design",
+        "engagement"
+      ],
+      "features": [
+        "Engagement focused",
+        "Platform optimized",
+        "Brand consistency"
+      ]
     },
     {
       "id": "local-seo-optimizer",
@@ -1056,8 +1860,17 @@
       "url": "/seo/local-seo-optimizer",
       "icon": "MapPin",
       "status": "active",
-      "keywords": ["local", "seo", "business", "gmb"],
-      "features": ["GMB optimization", "Local citations", "Review management"]
+      "keywords": [
+        "local",
+        "seo",
+        "business",
+        "gmb"
+      ],
+      "features": [
+        "GMB optimization",
+        "Local citations",
+        "Review management"
+      ]
     },
     {
       "id": "technical-seo-auditor",
@@ -1067,8 +1880,17 @@
       "url": "/seo/technical-seo-auditor",
       "icon": "Settings",
       "status": "active",
-      "keywords": ["technical", "seo", "audit", "optimization"],
-      "features": ["Crawl issues", "Performance", "Security checks"]
+      "keywords": [
+        "technical",
+        "seo",
+        "audit",
+        "optimization"
+      ],
+      "features": [
+        "Crawl issues",
+        "Performance",
+        "Security checks"
+      ]
     },
     {
       "id": "live-stream-idea-generator",
@@ -1078,8 +1900,17 @@
       "url": "/social/live-stream-idea-generator",
       "icon": "Video",
       "status": "active",
-      "keywords": ["live", "stream", "content", "engagement"],
-      "features": ["Audience focused", "Trending topics", "Interactive elements"]
+      "keywords": [
+        "live",
+        "stream",
+        "content",
+        "engagement"
+      ],
+      "features": [
+        "Audience focused",
+        "Trending topics",
+        "Interactive elements"
+      ]
     },
     {
       "id": "community-manager",
@@ -1089,8 +1920,17 @@
       "url": "/social/community-manager",
       "icon": "Users",
       "status": "active",
-      "keywords": ["community", "management", "engagement", "social"],
-      "features": ["Response templates", "Engagement tracking", "Sentiment analysis"]
+      "keywords": [
+        "community",
+        "management",
+        "engagement",
+        "social"
+      ],
+      "features": [
+        "Response templates",
+        "Engagement tracking",
+        "Sentiment analysis"
+      ]
     },
     {
       "id": "mental-health-tracker",
@@ -1100,8 +1940,17 @@
       "url": "/health/mental-health-tracker",
       "icon": "Heart",
       "status": "active",
-      "keywords": ["mental", "health", "wellness", "tracking"],
-      "features": ["Mood tracking", "Stress monitoring", "Insight generation"]
+      "keywords": [
+        "mental",
+        "health",
+        "wellness",
+        "tracking"
+      ],
+      "features": [
+        "Mood tracking",
+        "Stress monitoring",
+        "Insight generation"
+      ]
     },
     {
       "id": "medication-tracker",
@@ -1111,8 +1960,17 @@
       "url": "/health/medication-tracker",
       "icon": "Pill",
       "status": "active",
-      "keywords": ["medication", "reminder", "health", "tracking"],
-      "features": ["Custom schedules", "Reminders", "Progress tracking"]
+      "keywords": [
+        "medication",
+        "reminder",
+        "health",
+        "tracking"
+      ],
+      "features": [
+        "Custom schedules",
+        "Reminders",
+        "Progress tracking"
+      ]
     },
     {
       "id": "credit-score-analyzer",
@@ -1122,8 +1980,17 @@
       "url": "/finance/credit-score-analyzer",
       "icon": "BarChart3",
       "status": "active",
-      "keywords": ["credit", "score", "finance", "improvement"],
-      "features": ["Score analysis", "Improvement tips", "Credit report"]
+      "keywords": [
+        "credit",
+        "score",
+        "finance",
+        "improvement"
+      ],
+      "features": [
+        "Score analysis",
+        "Improvement tips",
+        "Credit report"
+      ]
     },
     {
       "id": "insurance-comparison",
@@ -1133,8 +2000,2358 @@
       "url": "/finance/insurance-comparison",
       "icon": "Shield",
       "status": "active",
-      "keywords": ["insurance", "comparison", "coverage", "finance"],
-      "features": ["Multiple providers", "Coverage analysis", "Cost comparison"]
+      "keywords": [
+        "insurance",
+        "comparison",
+        "coverage",
+        "finance"
+      ],
+      "features": [
+        "Multiple providers",
+        "Coverage analysis",
+        "Cost comparison"
+      ]
+    },
+    {
+      "id": "keyword-researcher",
+      "title": "Keyword Researcher",
+      "description": "Discover high-intent keywords and search volumes",
+      "category": "seo",
+      "url": "/seo/keyword-researcher",
+      "icon": "Search",
+      "status": "active",
+      "keywords": [
+        "keywords",
+        "volume",
+        "difficulty",
+        "intent"
+      ],
+      "features": [
+        "Intent detection",
+        "Long-tail ideas",
+        "SERP overview"
+      ]
+    },
+    {
+      "id": "serp-analyzer",
+      "title": "SERP Analyzer",
+      "description": "Analyze top results and ranking factors for any query",
+      "category": "seo",
+      "url": "/seo/serp-analyzer",
+      "icon": "BarChart3",
+      "status": "active",
+      "keywords": [
+        "serp",
+        "ranking",
+        "analysis",
+        "competition"
+      ],
+      "features": [
+        "Result snapshots",
+        "Content gap",
+        "Intent match"
+      ]
+    },
+    {
+      "id": "backlink-checker",
+      "title": "Backlink Checker",
+      "description": "Find backlinks and opportunities to improve authority",
+      "category": "seo",
+      "url": "/seo/backlink-checker",
+      "icon": "Link2",
+      "status": "active",
+      "keywords": [
+        "backlinks",
+        "authority",
+        "links",
+        "off-page"
+      ],
+      "features": [
+        "Referring domains",
+        "Anchor text",
+        "Toxic links"
+      ]
+    },
+    {
+      "id": "schema-markup-generator",
+      "title": "Schema Markup Generator",
+      "description": "Create JSON-LD schema for articles, products, and more",
+      "category": "seo",
+      "url": "/seo/schema-markup-generator",
+      "icon": "FileCode",
+      "status": "active",
+      "keywords": [
+        "schema",
+        "json-ld",
+        "rich results",
+        "structured data"
+      ],
+      "features": [
+        "Article",
+        "FAQ",
+        "Product"
+      ]
+    },
+    {
+      "id": "faq-schema-generator",
+      "title": "FAQ Schema Generator",
+      "description": "Generate FAQ schema to win rich results",
+      "category": "seo",
+      "url": "/seo/faq-schema-generator",
+      "icon": "ListChecks",
+      "status": "active",
+      "keywords": [
+        "faq",
+        "schema",
+        "rich results",
+        "json-ld"
+      ],
+      "features": [
+        "Q&A editor",
+        "JSON-LD export",
+        "Validation tips"
+      ]
+    },
+    {
+      "id": "local-business-schema",
+      "title": "Local Business Schema",
+      "description": "Build local business schema with NAP, reviews, and geo",
+      "category": "seo",
+      "url": "/seo/local-business-schema",
+      "icon": "MapPin",
+      "status": "active",
+      "keywords": [
+        "local seo",
+        "schema",
+        "gmb",
+        "citations"
+      ],
+      "features": [
+        "NAP consistency",
+        "Geo coordinates",
+        "Hours"
+      ]
+    },
+    {
+      "id": "article-schema",
+      "title": "Article Schema",
+      "description": "Generate Article and BlogPosting structured data",
+      "category": "seo",
+      "url": "/seo/article-schema",
+      "icon": "FileText",
+      "status": "active",
+      "keywords": [
+        "article",
+        "schema",
+        "blog",
+        "json-ld"
+      ],
+      "features": [
+        "Author",
+        "Date",
+        "Publisher"
+      ]
+    },
+    {
+      "id": "sitemap-generator",
+      "title": "Sitemap Generator",
+      "description": "Create XML sitemaps and submit to search engines",
+      "category": "seo",
+      "url": "/seo/sitemap-generator",
+      "icon": "FileCog",
+      "status": "active",
+      "keywords": [
+        "sitemap",
+        "xml",
+        "indexing",
+        "crawl"
+      ],
+      "features": [
+        "Split large sitemaps",
+        "Priority",
+        "Changefreq"
+      ]
+    },
+    {
+      "id": "robots-generator",
+      "title": "Robots.txt Generator",
+      "description": "Generate optimized robots.txt with safe defaults",
+      "category": "seo",
+      "url": "/seo/robots-generator",
+      "icon": "Settings",
+      "status": "active",
+      "keywords": [
+        "robots.txt",
+        "crawl",
+        "disallow",
+        "allow"
+      ],
+      "features": [
+        "Templates",
+        "Sitemap reference",
+        "Testing"
+      ]
+    },
+    {
+      "id": "og-twitter-validator",
+      "title": "OG/Twitter Card Validator",
+      "description": "Validate Open Graph and Twitter meta tags",
+      "category": "seo",
+      "url": "/seo/og-twitter-validator",
+      "icon": "Scan",
+      "status": "active",
+      "keywords": [
+        "open graph",
+        "twitter",
+        "meta",
+        "preview"
+      ],
+      "features": [
+        "Preview cards",
+        "Missing tags",
+        "Share ready"
+      ]
+    },
+    {
+      "id": "page-title-analyzer",
+      "title": "Page Title Analyzer",
+      "description": "Score and optimize title tags for CTR",
+      "category": "seo",
+      "url": "/seo/page-title-analyzer",
+      "icon": "Type",
+      "status": "active",
+      "keywords": [
+        "title",
+        "ctr",
+        "seo",
+        "length"
+      ],
+      "features": [
+        "Length check",
+        "Power words",
+        "Keyword focus"
+      ]
+    },
+    {
+      "id": "keyword-cluster-generator",
+      "title": "Keyword Cluster Generator",
+      "description": "Group keywords into topical clusters automatically",
+      "category": "seo",
+      "url": "/seo/keyword-cluster-generator",
+      "icon": "Tags",
+      "status": "active",
+      "keywords": [
+        "clusters",
+        "topics",
+        "keywords",
+        "content map"
+      ],
+      "features": [
+        "Cluster logic",
+        "Parent topics",
+        "Export"
+      ]
+    },
+    {
+      "id": "content-brief-generator",
+      "title": "Content Brief Generator",
+      "description": "Create SEO content briefs with headings and FAQs",
+      "category": "seo",
+      "url": "/seo/content-brief-generator",
+      "icon": "List",
+      "status": "active",
+      "keywords": [
+        "brief",
+        "outline",
+        "headings",
+        "faq"
+      ],
+      "features": [
+        "H2/H3 draft",
+        "PAA ideas",
+        "Entities"
+      ]
+    },
+    {
+      "id": "topic-cluster-planner",
+      "title": "Topic Cluster Planner",
+      "description": "Plan pillar pages and supporting cluster content",
+      "category": "seo",
+      "url": "/seo/topic-cluster-planner",
+      "icon": "Network",
+      "status": "active",
+      "keywords": [
+        "topic cluster",
+        "pillar",
+        "internal links",
+        "architecture"
+      ],
+      "features": [
+        "Pillars",
+        "Clusters",
+        "Link map"
+      ]
+    },
+    {
+      "id": "paa-generator",
+      "title": "People Also Ask Generator",
+      "description": "Generate PAA questions to cover intent",
+      "category": "seo",
+      "url": "/seo/paa-generator",
+      "icon": "HelpCircle",
+      "status": "active",
+      "keywords": [
+        "paa",
+        "questions",
+        "serp",
+        "intent"
+      ],
+      "features": [
+        "Question ideas",
+        "Grouping",
+        "Export"
+      ]
+    },
+    {
+      "id": "entity-extractor",
+      "title": "Entity Extractor",
+      "description": "Extract entities for SEO and schema enrichment",
+      "category": "seo",
+      "url": "/seo/entity-extractor",
+      "icon": "Sparkles",
+      "status": "active",
+      "keywords": [
+        "entities",
+        "nlp",
+        "schema",
+        "topics"
+      ],
+      "features": [
+        "NER",
+        "Categories",
+        "Relevance"
+      ]
+    },
+    {
+      "id": "internal-link-suggester",
+      "title": "Internal Link Suggester",
+      "description": "Find internal linking opportunities across content",
+      "category": "seo",
+      "url": "/seo/internal-link-suggester",
+      "icon": "Link",
+      "status": "active",
+      "keywords": [
+        "internal links",
+        "anchor",
+        "seo",
+        "architecture"
+      ],
+      "features": [
+        "Anchor ideas",
+        "Relevance",
+        "Priority"
+      ]
+    },
+    {
+      "id": "broken-link-finder",
+      "title": "Broken Link Finder",
+      "description": "Detect broken links and redirects",
+      "category": "seo",
+      "url": "/seo/broken-link-finder",
+      "icon": "Unlink",
+      "status": "active",
+      "keywords": [
+        "broken links",
+        "404",
+        "redirects",
+        "health"
+      ],
+      "features": [
+        "Status codes",
+        "Export",
+        "Fix tips"
+      ]
+    },
+    {
+      "id": "redirect-map-generator",
+      "title": "Redirect Map Generator",
+      "description": "Create 301/302 redirect plans during migrations",
+      "category": "seo",
+      "url": "/seo/redirect-map-generator",
+      "icon": "ArrowRight",
+      "status": "active",
+      "keywords": [
+        "redirect",
+        "migration",
+        "url mapping",
+        "seo"
+      ],
+      "features": [
+        "Mapping",
+        "Status selection",
+        "Export"
+      ]
+    },
+    {
+      "id": "alt-text-generator",
+      "title": "Image Alt Text Generator",
+      "description": "Generate descriptive alt text for images",
+      "category": "seo",
+      "url": "/seo/alt-text-generator",
+      "icon": "Image",
+      "status": "active",
+      "keywords": [
+        "alt text",
+        "images",
+        "accessibility",
+        "seo"
+      ],
+      "features": [
+        "Batch",
+        "Context aware",
+        "Export"
+      ]
+    },
+    {
+      "id": "competitor-gap-analyzer",
+      "title": "Competitor Gap Analyzer",
+      "description": "Find content gaps vs top competitors",
+      "category": "seo",
+      "url": "/seo/competitor-gap-analyzer",
+      "icon": "Users",
+      "status": "active",
+      "keywords": [
+        "gap analysis",
+        "competitors",
+        "keywords",
+        "content"
+      ],
+      "features": [
+        "Missing topics",
+        "Prioritize",
+        "Plan"
+      ]
+    },
+    {
+      "id": "meta-tag-validator",
+      "title": "Meta Tag Validator",
+      "description": "Validate meta tags for SEO and social",
+      "category": "seo",
+      "url": "/seo/meta-tag-validator",
+      "icon": "FileSearch",
+      "status": "active",
+      "keywords": [
+        "meta",
+        "tags",
+        "validation",
+        "seo"
+      ],
+      "features": [
+        "Presence",
+        "Length",
+        "Best practices"
+      ]
+    },
+    {
+      "id": "canonical-checker",
+      "title": "Canonical Tag Checker",
+      "description": "Detect canonical conflicts and duplicates",
+      "category": "seo",
+      "url": "/seo/canonical-checker",
+      "icon": "CheckCircle",
+      "status": "active",
+      "keywords": [
+        "canonical",
+        "duplicates",
+        "indexing",
+        "seo"
+      ],
+      "features": [
+        "Duplicate sets",
+        "Hints",
+        "Export"
+      ]
+    },
+    {
+      "id": "hreflang-generator",
+      "title": "Hreflang Generator",
+      "description": "Generate hreflang tags for international SEO",
+      "category": "seo",
+      "url": "/seo/hreflang-generator",
+      "icon": "Globe",
+      "status": "active",
+      "keywords": [
+        "hreflang",
+        "international",
+        "languages",
+        "seo"
+      ],
+      "features": [
+        "Region codes",
+        "Validation",
+        "Export"
+      ]
+    },
+    {
+      "id": "indexnow-submitter",
+      "title": "IndexNow Submitter",
+      "description": "Submit URLs to IndexNow for instant indexing",
+      "category": "seo",
+      "url": "/seo/indexnow-submitter",
+      "icon": "Send",
+      "status": "active",
+      "keywords": [
+        "indexnow",
+        "bing",
+        "indexing",
+        "submit"
+      ],
+      "features": [
+        "Batch submit",
+        "History",
+        "Status"
+      ]
+    },
+    {
+      "id": "gsc-helper",
+      "title": "GSC Helper",
+      "description": "Google Search Console insights and actions",
+      "category": "seo",
+      "url": "/seo/gsc-helper",
+      "icon": "Activity",
+      "status": "active",
+      "keywords": [
+        "gsc",
+        "coverage",
+        "performance",
+        "queries"
+      ],
+      "features": [
+        "Coverage",
+        "Queries",
+        "Improvements"
+      ]
+    },
+    {
+      "id": "bing-webmaster-helper",
+      "title": "Bing Webmaster Helper",
+      "description": "Manage sitemaps and insights for Bing",
+      "category": "seo",
+      "url": "/seo/bing-webmaster-helper",
+      "icon": "BarChart3",
+      "status": "active",
+      "keywords": [
+        "bing",
+        "webmaster",
+        "sitemap",
+        "insights"
+      ],
+      "features": [
+        "Submit sitemap",
+        "IndexNow",
+        "Reports"
+      ]
+    },
+    {
+      "id": "core-web-vitals-advisor",
+      "title": "Core Web Vitals Advisor",
+      "description": "Get CWV improvement suggestions for LCP, CLS, FID/INP",
+      "category": "seo",
+      "url": "/seo/core-web-vitals-advisor",
+      "icon": "Gauge",
+      "status": "active",
+      "keywords": [
+        "cwv",
+        "performance",
+        "lcp",
+        "cls"
+      ],
+      "features": [
+        "Lab tips",
+        "Field data guidance",
+        "Prioritization"
+      ]
+    },
+    {
+      "id": "meme-generator",
+      "title": "Meme Generator",
+      "description": "Create memes with trending formats and captions",
+      "category": "fun",
+      "url": "/fun/meme-generator",
+      "icon": "Image",
+      "status": "active",
+      "keywords": [
+        "meme",
+        "funny",
+        "social",
+        "viral"
+      ],
+      "features": [
+        "Templates",
+        "Font styles",
+        "Export"
+      ]
+    },
+    {
+      "id": "newsletter-subject-generator",
+      "title": "Newsletter Subject Generator",
+      "description": "Write high-CTR email subject lines",
+      "category": "business",
+      "url": "/business/newsletter-subject-generator",
+      "icon": "Mail",
+      "status": "active",
+      "keywords": [
+        "email",
+        "subject",
+        "newsletter",
+        "ctr"
+      ],
+      "features": [
+        "Power words",
+        "Personalization",
+        "A/B ideas"
+      ]
+    },
+    {
+      "id": "youtube-title-optimizer",
+      "title": "YouTube Title Optimizer",
+      "description": "Craft engaging YouTube titles to boost CTR",
+      "category": "social",
+      "url": "/social/youtube-title-optimizer",
+      "icon": "Video",
+      "status": "active",
+      "keywords": [
+        "youtube",
+        "title",
+        "video",
+        "ctr"
+      ],
+      "features": [
+        "Hooks",
+        "Length check",
+        "Keywords"
+      ]
+    },
+    {
+      "id": "youtube-tag-generator",
+      "title": "YouTube Tag Generator",
+      "description": "Generate relevant tags for YouTube videos",
+      "category": "social",
+      "url": "/social/youtube-tag-generator",
+      "icon": "Tags",
+      "status": "active",
+      "keywords": [
+        "youtube",
+        "tags",
+        "video",
+        "seo"
+      ],
+      "features": [
+        "Relevant tags",
+        "Volume hints",
+        "Export"
+      ]
+    },
+    {
+      "id": "podcast-title-generator",
+      "title": "Podcast Title Generator",
+      "description": "Generate compelling podcast episode titles",
+      "category": "social",
+      "url": "/social/podcast-title-generator",
+      "icon": "Mic",
+      "status": "active",
+      "keywords": [
+        "podcast",
+        "title",
+        "audio",
+        "engagement"
+      ],
+      "features": [
+        "Hooks",
+        "Series context",
+        "Keywords"
+      ]
+    },
+    {
+      "id": "blog-intro-generator",
+      "title": "Blog Intro Generator",
+      "description": "Write scroll-stopping blog introductions",
+      "category": "writing",
+      "url": "/writing/blog-intro-generator",
+      "icon": "PenTool",
+      "status": "active",
+      "keywords": [
+        "blog",
+        "intro",
+        "hook",
+        "writing"
+      ],
+      "features": [
+        "Multiple tones",
+        "Length control",
+        "SEO focus"
+      ]
+    },
+    {
+      "id": "cta-generator",
+      "title": "CTA Generator",
+      "description": "Create persuasive calls-to-action for any context",
+      "category": "writing",
+      "url": "/writing/cta-generator",
+      "icon": "Megaphone",
+      "status": "active",
+      "keywords": [
+        "cta",
+        "conversion",
+        "copy",
+        "marketing"
+      ],
+      "features": [
+        "Tone options",
+        "Urgency",
+        "Objection handling"
+      ]
+    },
+    {
+      "id": "aida-copywriter",
+      "title": "AIDA Copywriter",
+      "description": "Generate copy using Attention-Interest-Desire-Action",
+      "category": "writing",
+      "url": "/writing/aida-copywriter",
+      "icon": "FileText",
+      "status": "active",
+      "keywords": [
+        "aida",
+        "copywriting",
+        "framework",
+        "marketing"
+      ],
+      "features": [
+        "Framework-based",
+        "Multiple variants",
+        "Channels"
+      ]
+    },
+    {
+      "id": "pas-copywriter",
+      "title": "PAS Copywriter",
+      "description": "Problem-Agitate-Solution copy for landing pages",
+      "category": "writing",
+      "url": "/writing/pas-copywriter",
+      "icon": "FileText",
+      "status": "active",
+      "keywords": [
+        "pas",
+        "copywriting",
+        "landing page",
+        "conversion"
+      ],
+      "features": [
+        "Framework-based",
+        "Objection handle",
+        "Benefits"
+      ]
+    },
+    {
+      "id": "landing-copy-generator",
+      "title": "Landing Page Copy Generator",
+      "description": "Draft high-converting landing page copy",
+      "category": "writing",
+      "url": "/writing/landing-copy-generator",
+      "icon": "Layout",
+      "status": "active",
+      "keywords": [
+        "landing",
+        "copy",
+        "conversion",
+        "benefits"
+      ],
+      "features": [
+        "Sections",
+        "Headlines",
+        "CTAs"
+      ]
+    },
+    {
+      "id": "feature-benefit-converter",
+      "title": "Feature→Benefit Converter",
+      "description": "Turn product features into customer benefits",
+      "category": "business",
+      "url": "/business/feature-benefit-converter",
+      "icon": "Sparkles",
+      "status": "active",
+      "keywords": [
+        "benefits",
+        "features",
+        "value prop",
+        "messaging"
+      ],
+      "features": [
+        "Feature mapping",
+        "Examples",
+        "Export"
+      ]
+    },
+    {
+      "id": "product-review-writer",
+      "title": "Product Review Writer",
+      "description": "Generate balanced product reviews and pros/cons",
+      "category": "writing",
+      "url": "/writing/product-review-writer",
+      "icon": "Star",
+      "status": "active",
+      "keywords": [
+        "review",
+        "product",
+        "pros",
+        "cons"
+      ],
+      "features": [
+        "Tone control",
+        "Length",
+        "Summary"
+      ]
+    },
+    {
+      "id": "testimonial-generator",
+      "title": "Testimonial Generator",
+      "description": "Create realistic testimonials and case studies",
+      "category": "business",
+      "url": "/business/testimonial-generator",
+      "icon": "BadgeCheck",
+      "status": "active",
+      "keywords": [
+        "testimonial",
+        "case study",
+        "social proof",
+        "reviews"
+      ],
+      "features": [
+        "Frameworks",
+        "Quotes",
+        "Outcomes"
+      ]
+    },
+    {
+      "id": "brand-voice-guide",
+      "title": "Brand Voice Style Guide",
+      "description": "Define and document your brand voice",
+      "category": "business",
+      "url": "/business/brand-voice-guide",
+      "icon": "BookOpen",
+      "status": "active",
+      "keywords": [
+        "brand",
+        "voice",
+        "style",
+        "guide"
+      ],
+      "features": [
+        "Examples",
+        "Do/Don't",
+        "Personas"
+      ]
+    },
+    {
+      "id": "tone-of-voice-detector",
+      "title": "Tone of Voice Detector",
+      "description": "Analyze and suggest tone adjustments",
+      "category": "text",
+      "url": "/text/tone-of-voice-detector",
+      "icon": "AudioLines",
+      "status": "active",
+      "keywords": [
+        "tone",
+        "analysis",
+        "writing",
+        "style"
+      ],
+      "features": [
+        "Tone labels",
+        "Suggestions",
+        "Rewrite"
+      ]
+    },
+    {
+      "id": "json-formatter",
+      "title": "JSON Formatter",
+      "description": "Format and validate JSON with error highlights",
+      "category": "developer",
+      "url": "/developer/json-formatter",
+      "icon": "Braces",
+      "status": "active",
+      "keywords": [
+        "json",
+        "format",
+        "validate",
+        "developer"
+      ],
+      "features": [
+        "Pretty print",
+        "Minify",
+        "Copy"
+      ]
+    },
+    {
+      "id": "jwt-decoder",
+      "title": "JWT Decoder",
+      "description": "Decode and inspect JWT tokens",
+      "category": "developer",
+      "url": "/developer/jwt-decoder",
+      "icon": "KeyRound",
+      "status": "active",
+      "keywords": [
+        "jwt",
+        "token",
+        "decode",
+        "security"
+      ],
+      "features": [
+        "Header/Payload",
+        "Claims",
+        "Copy"
+      ]
+    },
+    {
+      "id": "curl-to-fetch",
+      "title": "cURL → fetch Converter",
+      "description": "Convert curl commands to fetch/Axios",
+      "category": "developer",
+      "url": "/developer/curl-to-fetch",
+      "icon": "Terminal",
+      "status": "active",
+      "keywords": [
+        "curl",
+        "fetch",
+        "axios",
+        "convert"
+      ],
+      "features": [
+        "Headers",
+        "Body",
+        "Auth"
+      ]
+    },
+    {
+      "id": "api-request-builder",
+      "title": "API Request Builder",
+      "description": "Craft and test HTTP requests",
+      "category": "developer",
+      "url": "/developer/api-request-builder",
+      "icon": "Network",
+      "status": "active",
+      "keywords": [
+        "api",
+        "http",
+        "request",
+        "debug"
+      ],
+      "features": [
+        "GET/POST",
+        "Headers",
+        "Auth"
+      ]
+    },
+    {
+      "id": "diff-viewer",
+      "title": "Diff Viewer",
+      "description": "Visualize differences between two texts/files",
+      "category": "developer",
+      "url": "/developer/diff-viewer",
+      "icon": "GitCompare",
+      "status": "active",
+      "keywords": [
+        "diff",
+        "compare",
+        "files",
+        "text"
+      ],
+      "features": [
+        "Inline",
+        "Side-by-side",
+        "Copy"
+      ]
+    },
+    {
+      "id": "markdown-to-html",
+      "title": "Markdown → HTML",
+      "description": "Convert Markdown to clean HTML",
+      "category": "developer",
+      "url": "/developer/markdown-to-html",
+      "icon": "Markdown",
+      "status": "active",
+      "keywords": [
+        "markdown",
+        "html",
+        "convert",
+        "format"
+      ],
+      "features": [
+        "Sanitize",
+        "Copy",
+        "Download"
+      ]
+    },
+    {
+      "id": "gitignore-generator",
+      "title": ".gitignore Generator",
+      "description": "Generate .gitignore files for any stack",
+      "category": "developer",
+      "url": "/developer/gitignore-generator",
+      "icon": "FileCog",
+      "status": "active",
+      "keywords": [
+        "git",
+        "ignore",
+        "template",
+        "dev"
+      ],
+      "features": [
+        "Languages",
+        "Frameworks",
+        "Export"
+      ]
+    },
+    {
+      "id": "favicon-generator",
+      "title": "Favicon Generator",
+      "description": "Generate favicons and app icons in all sizes",
+      "category": "design",
+      "url": "/design/favicon-generator",
+      "icon": "Image",
+      "status": "active",
+      "keywords": [
+        "favicon",
+        "icons",
+        "pwa",
+        "assets"
+      ],
+      "features": [
+        "Multi-size",
+        "Manifest",
+        "Zip export"
+      ]
+    },
+    {
+      "id": "social-preview-generator",
+      "title": "Social Preview Generator",
+      "description": "Create OG/Twitter preview images",
+      "category": "design",
+      "url": "/design/social-preview-generator",
+      "icon": "Image",
+      "status": "active",
+      "keywords": [
+        "og",
+        "preview",
+        "image",
+        "social"
+      ],
+      "features": [
+        "Templates",
+        "Branding",
+        "Export"
+      ]
+    },
+    {
+      "id": "qr-code-generator",
+      "title": "QR Code Generator",
+      "description": "Create QR codes for URLs and text",
+      "category": "design",
+      "url": "/design/qr-code-generator",
+      "icon": "QrCode",
+      "status": "active",
+      "keywords": [
+        "qr",
+        "code",
+        "link",
+        "share"
+      ],
+      "features": [
+        "Error correction",
+        "Logos",
+        "Download"
+      ]
+    },
+    {
+      "id": "svg-optimizer",
+      "title": "SVG Optimizer",
+      "description": "Minify and clean SVGs for the web",
+      "category": "design",
+      "url": "/design/svg-optimizer",
+      "icon": "Shapes",
+      "status": "active",
+      "keywords": [
+        "svg",
+        "optimize",
+        "minify",
+        "paths"
+      ],
+      "features": [
+        "Remove metadata",
+        "Precision",
+        "Preview"
+      ]
+    },
+    {
+      "id": "image-to-webp",
+      "title": "Image → WebP Converter",
+      "description": "Convert images to WebP for faster loads",
+      "category": "design",
+      "url": "/design/image-to-webp",
+      "icon": "Image",
+      "status": "active",
+      "keywords": [
+        "webp",
+        "convert",
+        "images",
+        "performance"
+      ],
+      "features": [
+        "Quality",
+        "Batch",
+        "Download"
+      ]
+    },
+    {
+      "id": "thread-writer",
+      "title": "Thread Writer",
+      "description": "Write viral Twitter/X threads",
+      "category": "social",
+      "url": "/social/thread-writer",
+      "icon": "MessageSquare",
+      "status": "active",
+      "keywords": [
+        "twitter",
+        "x",
+        "thread",
+        "social"
+      ],
+      "features": [
+        "Hook ideas",
+        "Structure",
+        "Hashtags"
+      ]
+    },
+    {
+      "id": "hook-generator",
+      "title": "Hook Generator",
+      "description": "Create scroll-stopping hooks for ads and content",
+      "category": "social",
+      "url": "/social/hook-generator",
+      "icon": "Sparkles",
+      "status": "active",
+      "keywords": [
+        "hooks",
+        "ads",
+        "content",
+        "creative"
+      ],
+      "features": [
+        "Frameworks",
+        "Angles",
+        "Examples"
+      ]
+    },
+    {
+      "id": "ai-voice-generator",
+      "title": "AI Voice Generator",
+      "description": "Generate realistic AI voices for podcasts and videos",
+      "category": "creativity",
+      "url": "/creativity/ai-voice-generator",
+      "icon": "Mic",
+      "status": "active",
+      "keywords": [
+        "voice",
+        "ai",
+        "audio",
+        "speech"
+      ],
+      "features": [
+        "Multiple voices",
+        "Emotion control",
+        "Export formats"
+      ]
+    },
+    {
+      "id": "music-generator",
+      "title": "AI Music Generator",
+      "description": "Create original music tracks with AI",
+      "category": "creativity",
+      "url": "/creativity/music-generator",
+      "icon": "Music",
+      "status": "active",
+      "keywords": [
+        "music",
+        "ai",
+        "composition",
+        "audio"
+      ],
+      "features": [
+        "Genre selection",
+        "Mood control",
+        "Loop creation"
+      ]
+    },
+    {
+      "id": "story-generator",
+      "title": "AI Story Generator",
+      "description": "Generate creative stories and narratives",
+      "category": "creativity",
+      "url": "/creativity/story-generator",
+      "icon": "BookOpen",
+      "status": "active",
+      "keywords": [
+        "story",
+        "narrative",
+        "creative",
+        "writing"
+      ],
+      "features": [
+        "Genre options",
+        "Character development",
+        "Plot twists"
+      ]
+    },
+    {
+      "id": "character-creator",
+      "title": "Character Creator",
+      "description": "Design detailed fictional characters with backstories",
+      "category": "creativity",
+      "url": "/creativity/character-creator",
+      "icon": "Users",
+      "status": "active",
+      "keywords": [
+        "character",
+        "fiction",
+        "backstory",
+        "creative"
+      ],
+      "features": [
+        "Personality traits",
+        "Visual description",
+        "Backstory"
+      ]
+    },
+    {
+      "id": "world-builder",
+      "title": "World Builder",
+      "description": "Create detailed fictional worlds and universes",
+      "category": "creativity",
+      "url": "/creativity/world-builder",
+      "icon": "Globe",
+      "status": "active",
+      "keywords": [
+        "world",
+        "universe",
+        "fiction",
+        "creative"
+      ],
+      "features": [
+        "Geography",
+        "Culture",
+        "History"
+      ]
+    },
+    {
+      "id": "recipe-generator",
+      "title": "AI Recipe Generator",
+      "description": "Create custom recipes based on ingredients and preferences",
+      "category": "health",
+      "url": "/health/recipe-generator",
+      "icon": "ChefHat",
+      "status": "active",
+      "keywords": [
+        "recipe",
+        "cooking",
+        "ingredients",
+        "food"
+      ],
+      "features": [
+        "Dietary restrictions",
+        "Cuisine types",
+        "Nutrition info"
+      ]
+    },
+    {
+      "id": "workout-planner",
+      "title": "AI Workout Planner",
+      "description": "Create personalized workout plans for any fitness goal",
+      "category": "health",
+      "url": "/health/workout-planner",
+      "icon": "Dumbbell",
+      "status": "active",
+      "keywords": [
+        "workout",
+        "fitness",
+        "exercise",
+        "training"
+      ],
+      "features": [
+        "Goal-based",
+        "Equipment options",
+        "Progress tracking"
+      ]
+    },
+    {
+      "id": "meal-planner",
+      "title": "AI Meal Planner",
+      "description": "Plan weekly meals with shopping lists",
+      "category": "health",
+      "url": "/health/meal-planner",
+      "icon": "Calendar",
+      "status": "active",
+      "keywords": [
+        "meal",
+        "planning",
+        "nutrition",
+        "shopping"
+      ],
+      "features": [
+        "Weekly planning",
+        "Shopping lists",
+        "Nutrition balance"
+      ]
+    },
+    {
+      "id": "password-generator",
+      "title": "Secure Password Generator",
+      "description": "Generate strong, secure passwords with custom rules",
+      "category": "developer",
+      "url": "/developer/password-generator",
+      "icon": "Shield",
+      "status": "active",
+      "keywords": [
+        "password",
+        "security",
+        "generator",
+        "strong"
+      ],
+      "features": [
+        "Custom rules",
+        "Strength meter",
+        "Bulk generation"
+      ]
+    },
+    {
+      "id": "color-extractor",
+      "title": "Color Extractor",
+      "description": "Extract color palettes from images",
+      "category": "design",
+      "url": "/design/color-extractor",
+      "icon": "Palette",
+      "status": "active",
+      "keywords": [
+        "color",
+        "palette",
+        "image",
+        "extract"
+      ],
+      "features": [
+        "Dominant colors",
+        "Hex codes",
+        "Export palette"
+      ]
+    },
+    {
+      "id": "gradient-generator",
+      "title": "CSS Gradient Generator",
+      "description": "Create beautiful CSS gradients with live preview",
+      "category": "design",
+      "url": "/design/gradient-generator",
+      "icon": "Paintbrush",
+      "status": "active",
+      "keywords": [
+        "gradient",
+        "css",
+        "design",
+        "colors"
+      ],
+      "features": [
+        "Live preview",
+        "CSS export",
+        "Multiple types"
+      ]
+    },
+    {
+      "id": "shadow-generator",
+      "title": "CSS Shadow Generator",
+      "description": "Generate CSS box shadows and text shadows",
+      "category": "design",
+      "url": "/design/shadow-generator",
+      "icon": "Square",
+      "status": "active",
+      "keywords": [
+        "shadow",
+        "css",
+        "box-shadow",
+        "design"
+      ],
+      "features": [
+        "Box shadows",
+        "Text shadows",
+        "Live preview"
+      ]
+    },
+    {
+      "id": "border-radius-generator",
+      "title": "Border Radius Generator",
+      "description": "Create custom border radius with visual editor",
+      "category": "design",
+      "url": "/design/border-radius-generator",
+      "icon": "RoundedCorner",
+      "status": "active",
+      "keywords": [
+        "border",
+        "radius",
+        "css",
+        "rounded"
+      ],
+      "features": [
+        "Visual editor",
+        "CSS export",
+        "Presets"
+      ]
+    },
+    {
+      "id": "ascii-art-generator",
+      "title": "ASCII Art Generator",
+      "description": "Convert text and images to ASCII art",
+      "category": "fun",
+      "url": "/fun/ascii-art-generator",
+      "icon": "Hash",
+      "status": "active",
+      "keywords": [
+        "ascii",
+        "art",
+        "text",
+        "convert"
+      ],
+      "features": [
+        "Text to ASCII",
+        "Image to ASCII",
+        "Font options"
+      ]
+    },
+    {
+      "id": "barcode-generator",
+      "title": "Barcode Generator",
+      "description": "Generate various types of barcodes",
+      "category": "business",
+      "url": "/business/barcode-generator",
+      "icon": "ScanLine",
+      "status": "active",
+      "keywords": [
+        "barcode",
+        "qr",
+        "generator",
+        "business"
+      ],
+      "features": [
+        "Multiple formats",
+        "Custom data",
+        "Download"
+      ]
+    },
+    {
+      "id": "invoice-generator",
+      "title": "Invoice Generator",
+      "description": "Create professional invoices quickly",
+      "category": "business",
+      "url": "/business/invoice-generator",
+      "icon": "Receipt",
+      "status": "active",
+      "keywords": [
+        "invoice",
+        "billing",
+        "business",
+        "professional"
+      ],
+      "features": [
+        "Templates",
+        "Tax calculation",
+        "PDF export"
+      ]
+    },
+    {
+      "id": "expense-tracker",
+      "title": "Expense Tracker",
+      "description": "Track and categorize your expenses",
+      "category": "finance",
+      "url": "/finance/expense-tracker",
+      "icon": "PiggyBank",
+      "status": "active",
+      "keywords": [
+        "expense",
+        "tracking",
+        "budget",
+        "finance"
+      ],
+      "features": [
+        "Categories",
+        "Reports",
+        "Export data"
+      ]
+    },
+    {
+      "id": "currency-converter",
+      "title": "Currency Converter",
+      "description": "Convert between currencies with live rates",
+      "category": "finance",
+      "url": "/finance/currency-converter",
+      "icon": "DollarSign",
+      "status": "active",
+      "keywords": [
+        "currency",
+        "convert",
+        "exchange",
+        "rates"
+      ],
+      "features": [
+        "Live rates",
+        "Historical data",
+        "Multiple currencies"
+      ]
+    },
+    {
+      "id": "tip-calculator",
+      "title": "Tip Calculator",
+      "description": "Calculate tips and split bills easily",
+      "category": "finance",
+      "url": "/finance/tip-calculator",
+      "icon": "Calculator",
+      "status": "active",
+      "keywords": [
+        "tip",
+        "calculator",
+        "bill",
+        "split"
+      ],
+      "features": [
+        "Tip percentage",
+        "Bill splitting",
+        "Round up"
+      ]
+    },
+    {
+      "id": "mortgage-calculator",
+      "title": "Mortgage Calculator",
+      "description": "Calculate mortgage payments and amortization",
+      "category": "finance",
+      "url": "/finance/mortgage-calculator",
+      "icon": "Home",
+      "status": "active",
+      "keywords": [
+        "mortgage",
+        "loan",
+        "payment",
+        "calculator"
+      ],
+      "features": [
+        "Monthly payments",
+        "Amortization",
+        "Extra payments"
+      ]
+    },
+    {
+      "id": "unit-converter",
+      "title": "Unit Converter",
+      "description": "Convert between different units of measurement",
+      "category": "text",
+      "url": "/text/unit-converter",
+      "icon": "Ruler",
+      "status": "active",
+      "keywords": [
+        "unit",
+        "convert",
+        "measurement",
+        "calculator"
+      ],
+      "features": [
+        "Length",
+        "Weight",
+        "Temperature",
+        "Volume"
+      ]
+    },
+    {
+      "id": "base64-encoder",
+      "title": "Base64 Encoder/Decoder",
+      "description": "Encode and decode Base64 strings",
+      "category": "developer",
+      "url": "/developer/base64-encoder",
+      "icon": "Binary",
+      "status": "active",
+      "keywords": [
+        "base64",
+        "encode",
+        "decode",
+        "string"
+      ],
+      "features": [
+        "Encode",
+        "Decode",
+        "File support"
+      ]
+    },
+    {
+      "id": "url-encoder",
+      "title": "URL Encoder/Decoder",
+      "description": "Encode and decode URLs and query parameters",
+      "category": "developer",
+      "url": "/developer/url-encoder",
+      "icon": "Link",
+      "status": "active",
+      "keywords": [
+        "url",
+        "encode",
+        "decode",
+        "query"
+      ],
+      "features": [
+        "URL encoding",
+        "Query params",
+        "Bulk processing"
+      ]
+    },
+    {
+      "id": "hash-generator",
+      "title": "Hash Generator",
+      "description": "Generate MD5, SHA1, SHA256 hashes",
+      "category": "developer",
+      "url": "/developer/hash-generator",
+      "icon": "Hash",
+      "status": "active",
+      "keywords": [
+        "hash",
+        "md5",
+        "sha",
+        "checksum"
+      ],
+      "features": [
+        "Multiple algorithms",
+        "File hashing",
+        "Compare hashes"
+      ]
+    },
+    {
+      "id": "uuid-generator",
+      "title": "UUID Generator",
+      "description": "Generate unique identifiers (UUIDs)",
+      "category": "developer",
+      "url": "/developer/uuid-generator",
+      "icon": "Fingerprint",
+      "status": "active",
+      "keywords": [
+        "uuid",
+        "guid",
+        "unique",
+        "identifier"
+      ],
+      "features": [
+        "UUID v4",
+        "Bulk generation",
+        "Copy to clipboard"
+      ]
+    },
+    {
+      "id": "lorem-ipsum-generator",
+      "title": "Lorem Ipsum Generator",
+      "description": "Generate placeholder text for designs",
+      "category": "text",
+      "url": "/text/lorem-ipsum-generator",
+      "icon": "Type",
+      "status": "active",
+      "keywords": [
+        "lorem",
+        "ipsum",
+        "placeholder",
+        "text"
+      ],
+      "features": [
+        "Word count",
+        "Paragraph count",
+        "HTML format"
+      ]
+    },
+    {
+      "id": "word-counter",
+      "title": "Word Counter",
+      "description": "Count words, characters, and paragraphs",
+      "category": "text",
+      "url": "/text/word-counter",
+      "icon": "FileText",
+      "status": "active",
+      "keywords": [
+        "word",
+        "count",
+        "character",
+        "text"
+      ],
+      "features": [
+        "Real-time counting",
+        "Reading time",
+        "Statistics"
+      ]
+    },
+    {
+      "id": "case-converter",
+      "title": "Case Converter",
+      "description": "Convert text between different cases",
+      "category": "text",
+      "url": "/text/case-converter",
+      "icon": "Type",
+      "status": "active",
+      "keywords": [
+        "case",
+        "convert",
+        "uppercase",
+        "lowercase"
+      ],
+      "features": [
+        "Multiple cases",
+        "Bulk conversion",
+        "Copy result"
+      ]
+    },
+    {
+      "id": "text-to-speech",
+      "title": "Text to Speech",
+      "description": "Convert text to natural-sounding speech",
+      "category": "text",
+      "url": "/text/text-to-speech",
+      "icon": "Volume2",
+      "status": "active",
+      "keywords": [
+        "text",
+        "speech",
+        "audio",
+        "voice"
+      ],
+      "features": [
+        "Multiple voices",
+        "Speed control",
+        "Download audio"
+      ]
+    },
+    {
+      "id": "speech-to-text",
+      "title": "Speech to Text",
+      "description": "Convert speech to text using AI",
+      "category": "text",
+      "url": "/text/speech-to-text",
+      "icon": "Mic",
+      "status": "active",
+      "keywords": [
+        "speech",
+        "text",
+        "transcription",
+        "audio"
+      ],
+      "features": [
+        "Real-time",
+        "File upload",
+        "Multiple languages"
+      ]
+    },
+    {
+      "id": "language-translator",
+      "title": "Language Translator",
+      "description": "Translate text between 100+ languages",
+      "category": "text",
+      "url": "/text/language-translator",
+      "icon": "Languages",
+      "status": "active",
+      "keywords": [
+        "translate",
+        "language",
+        "multilingual",
+        "text"
+      ],
+      "features": [
+        "100+ languages",
+        "Auto-detect",
+        "Bulk translation"
+      ]
+    },
+    {
+      "id": "plagiarism-checker",
+      "title": "Plagiarism Checker",
+      "description": "Check text for plagiarism and originality",
+      "category": "text",
+      "url": "/text/plagiarism-checker",
+      "icon": "Search",
+      "status": "active",
+      "keywords": [
+        "plagiarism",
+        "originality",
+        "check",
+        "duplicate"
+      ],
+      "features": [
+        "Similarity score",
+        "Source detection",
+        "Report generation"
+      ]
+    },
+    {
+      "id": "readability-analyzer",
+      "title": "Readability Analyzer",
+      "description": "Analyze text readability and grade level",
+      "category": "text",
+      "url": "/text/readability-analyzer",
+      "icon": "BookOpen",
+      "status": "active",
+      "keywords": [
+        "readability",
+        "grade",
+        "level",
+        "analysis"
+      ],
+      "features": [
+        "Multiple metrics",
+        "Grade level",
+        "Improvement tips"
+      ]
+    },
+    {
+      "id": "keyword-density-checker",
+      "title": "Keyword Density Checker",
+      "description": "Analyze keyword density in your content",
+      "category": "seo",
+      "url": "/seo/keyword-density-checker",
+      "icon": "BarChart3",
+      "status": "active",
+      "keywords": [
+        "keyword",
+        "density",
+        "seo",
+        "analysis"
+      ],
+      "features": [
+        "Density percentage",
+        "Word frequency",
+        "SEO tips"
+      ]
+    },
+    {
+      "id": "image-alt-text-checker",
+      "title": "Image Alt Text Checker",
+      "description": "Check and optimize image alt text for SEO",
+      "category": "seo",
+      "url": "/seo/image-alt-text-checker",
+      "icon": "Image",
+      "status": "active",
+      "keywords": [
+        "alt",
+        "text",
+        "image",
+        "seo"
+      ],
+      "features": [
+        "Alt text analysis",
+        "SEO scoring",
+        "Suggestions"
+      ]
+    },
+    {
+      "id": "social-media-analytics",
+      "title": "Social Media Analytics",
+      "description": "Analyze social media performance and engagement",
+      "category": "social",
+      "url": "/social/social-media-analytics",
+      "icon": "BarChart3",
+      "status": "active",
+      "keywords": [
+        "analytics",
+        "social",
+        "engagement",
+        "performance"
+      ],
+      "features": [
+        "Engagement metrics",
+        "Growth tracking",
+        "Competitor analysis"
+      ]
+    },
+    {
+      "id": "hashtag-analytics",
+      "title": "Hashtag Analytics",
+      "description": "Analyze hashtag performance and trends",
+      "category": "social",
+      "url": "/social/hashtag-analytics",
+      "icon": "Hash",
+      "status": "active",
+      "keywords": [
+        "hashtag",
+        "analytics",
+        "trends",
+        "performance"
+      ],
+      "features": [
+        "Trend analysis",
+        "Reach metrics",
+        "Best times"
+      ]
+    },
+    {
+      "id": "social-media-calendar",
+      "title": "Social Media Calendar",
+      "description": "Plan and schedule social media content",
+      "category": "social",
+      "url": "/social/social-media-calendar",
+      "icon": "Calendar",
+      "status": "active",
+      "keywords": [
+        "calendar",
+        "schedule",
+        "social",
+        "planning"
+      ],
+      "features": [
+        "Multi-platform",
+        "Drag & drop",
+        "Team collaboration"
+      ]
+    },
+    {
+      "id": "bio-link-generator",
+      "title": "Bio Link Generator",
+      "description": "Create a custom bio link page for social media",
+      "category": "social",
+      "url": "/social/bio-link-generator",
+      "icon": "Link",
+      "status": "active",
+      "keywords": [
+        "bio",
+        "link",
+        "social",
+        "profile"
+      ],
+      "features": [
+        "Custom design",
+        "Analytics",
+        "Multiple links"
+      ]
+    },
+    {
+      "id": "video-editor",
+      "title": "AI Video Editor",
+      "description": "Edit videos with AI-powered tools",
+      "category": "design",
+      "url": "/design/video-editor",
+      "icon": "Video",
+      "status": "active",
+      "keywords": [
+        "video",
+        "edit",
+        "ai",
+        "media"
+      ],
+      "features": [
+        "Auto-editing",
+        "Filters",
+        "Text overlay"
+      ]
+    },
+    {
+      "id": "photo-enhancer",
+      "title": "AI Photo Enhancer",
+      "description": "Enhance photos with AI upscaling and filters",
+      "category": "design",
+      "url": "/design/photo-enhancer",
+      "icon": "Image",
+      "status": "active",
+      "keywords": [
+        "photo",
+        "enhance",
+        "ai",
+        "upscale"
+      ],
+      "features": [
+        "AI upscaling",
+        "Noise reduction",
+        "Color enhancement"
+      ]
+    },
+    {
+      "id": "background-remover",
+      "title": "Background Remover",
+      "description": "Remove backgrounds from images automatically",
+      "category": "design",
+      "url": "/design/background-remover",
+      "icon": "Scissors",
+      "status": "active",
+      "keywords": [
+        "background",
+        "remove",
+        "image",
+        "transparent"
+      ],
+      "features": [
+        "Auto removal",
+        "Edge refinement",
+        "Batch processing"
+      ]
+    },
+    {
+      "id": "image-resizer",
+      "title": "Image Resizer",
+      "description": "Resize images while maintaining quality",
+      "category": "design",
+      "url": "/design/image-resizer",
+      "icon": "Maximize",
+      "status": "active",
+      "keywords": [
+        "image",
+        "resize",
+        "scale",
+        "quality"
+      ],
+      "features": [
+        "Maintain aspect",
+        "Batch resize",
+        "Multiple formats"
+      ]
+    },
+    {
+      "id": "watermark-generator",
+      "title": "Watermark Generator",
+      "description": "Add watermarks to protect your images",
+      "category": "design",
+      "url": "/design/watermark-generator",
+      "icon": "Shield",
+      "status": "active",
+      "keywords": [
+        "watermark",
+        "protect",
+        "image",
+        "copyright"
+      ],
+      "features": [
+        "Text watermarks",
+        "Image watermarks",
+        "Batch processing"
+      ]
+    },
+    {
+      "id": "meme-template-maker",
+      "title": "Meme Template Maker",
+      "description": "Create custom meme templates",
+      "category": "fun",
+      "url": "/fun/meme-template-maker",
+      "icon": "Image",
+      "status": "active",
+      "keywords": [
+        "meme",
+        "template",
+        "create",
+        "funny"
+      ],
+      "features": [
+        "Custom templates",
+        "Text positioning",
+        "Font options"
+      ]
+    },
+    {
+      "id": "gif-generator",
+      "title": "GIF Generator",
+      "description": "Create animated GIFs from videos or images",
+      "category": "fun",
+      "url": "/fun/gif-generator",
+      "icon": "Film",
+      "status": "active",
+      "keywords": [
+        "gif",
+        "animated",
+        "video",
+        "images"
+      ],
+      "features": [
+        "Video to GIF",
+        "Image sequence",
+        "Quality control"
+      ]
+    },
+    {
+      "id": "random-quote-generator",
+      "title": "Random Quote Generator",
+      "description": "Generate inspirational and motivational quotes",
+      "category": "fun",
+      "url": "/fun/random-quote-generator",
+      "icon": "Quote",
+      "status": "active",
+      "keywords": [
+        "quote",
+        "inspirational",
+        "motivational",
+        "random"
+      ],
+      "features": [
+        "Categories",
+        "Share options",
+        "Daily quotes"
+      ]
+    },
+    {
+      "id": "name-generator",
+      "title": "Name Generator",
+      "description": "Generate names for characters, businesses, or projects",
+      "category": "creativity",
+      "url": "/creativity/name-generator",
+      "icon": "User",
+      "status": "active",
+      "keywords": [
+        "name",
+        "generator",
+        "character",
+        "business"
+      ],
+      "features": [
+        "Multiple categories",
+        "Cultural options",
+        "Meaning included"
+      ]
+    },
+    {
+      "id": "domain-name-generator",
+      "title": "Domain Name Generator",
+      "description": "Generate available domain names for your project",
+      "category": "business",
+      "url": "/business/domain-name-generator",
+      "icon": "Globe",
+      "status": "active",
+      "keywords": [
+        "domain",
+        "name",
+        "website",
+        "availability"
+      ],
+      "features": [
+        "Availability check",
+        "TLD options",
+        "Suggestions"
+      ]
+    },
+    {
+      "id": "business-card-generator",
+      "title": "Business Card Generator",
+      "description": "Design professional business cards",
+      "category": "business",
+      "url": "/business/business-card-generator",
+      "icon": "CreditCard",
+      "status": "active",
+      "keywords": [
+        "business",
+        "card",
+        "design",
+        "professional"
+      ],
+      "features": [
+        "Templates",
+        "Custom design",
+        "Print ready"
+      ]
+    },
+    {
+      "id": "letterhead-generator",
+      "title": "Letterhead Generator",
+      "description": "Create professional letterheads for your business",
+      "category": "business",
+      "url": "/business/letterhead-generator",
+      "icon": "FileText",
+      "status": "active",
+      "keywords": [
+        "letterhead",
+        "business",
+        "professional",
+        "template"
+      ],
+      "features": [
+        "Professional templates",
+        "Logo integration",
+        "Print ready"
+      ]
+    },
+    {
+      "id": "certificate-generator",
+      "title": "Certificate Generator",
+      "description": "Create certificates and awards",
+      "category": "business",
+      "url": "/business/certificate-generator",
+      "icon": "Award",
+      "status": "active",
+      "keywords": [
+        "certificate",
+        "award",
+        "recognition",
+        "template"
+      ],
+      "features": [
+        "Multiple templates",
+        "Custom text",
+        "High resolution"
+      ]
+    },
+    {
+      "id": "habit-builder",
+      "title": "Habit Builder",
+      "description": "Build and track positive habits",
+      "category": "health",
+      "url": "/health/habit-builder",
+      "icon": "Target",
+      "status": "active",
+      "keywords": [
+        "habit",
+        "tracking",
+        "goals",
+        "productivity"
+      ],
+      "features": [
+        "Habit streaks",
+        "Progress charts",
+        "Reminders"
+      ]
+    },
+    {
+      "id": "calorie-counter",
+      "title": "Calorie Counter",
+      "description": "Track calories and nutrition intake",
+      "category": "health",
+      "url": "/health/calorie-counter",
+      "icon": "Apple",
+      "status": "active",
+      "keywords": [
+        "calorie",
+        "nutrition",
+        "food",
+        "tracking"
+      ],
+      "features": [
+        "Food database",
+        "Nutrition facts",
+        "Daily goals"
+      ]
+    },
+    {
+      "id": "bmi-calculator",
+      "title": "BMI Calculator",
+      "description": "Calculate Body Mass Index and health metrics",
+      "category": "health",
+      "url": "/health/bmi-calculator",
+      "icon": "Scale",
+      "status": "active",
+      "keywords": [
+        "bmi",
+        "health",
+        "weight",
+        "calculator"
+      ],
+      "features": [
+        "BMI calculation",
+        "Health categories",
+        "Recommendations"
+      ]
+    },
+    {
+      "id": "water-reminder",
+      "title": "Water Reminder",
+      "description": "Stay hydrated with smart water reminders",
+      "category": "health",
+      "url": "/health/water-reminder",
+      "icon": "Droplets",
+      "status": "active",
+      "keywords": [
+        "water",
+        "hydration",
+        "reminder",
+        "health"
+      ],
+      "features": [
+        "Smart reminders",
+        "Intake tracking",
+        "Goals"
+      ]
+    },
+    {
+      "id": "compound-interest-calculator",
+      "title": "Compound Interest Calculator",
+      "description": "Calculate compound interest and investment growth",
+      "category": "finance",
+      "url": "/finance/compound-interest-calculator",
+      "icon": "TrendingUp",
+      "status": "active",
+      "keywords": [
+        "compound",
+        "interest",
+        "investment",
+        "calculator"
+      ],
+      "features": [
+        "Growth projections",
+        "Charts",
+        "Scenarios"
+      ]
+    },
+    {
+      "id": "debt-payoff-calculator",
+      "title": "Debt Payoff Calculator",
+      "description": "Plan your debt payoff strategy",
+      "category": "finance",
+      "url": "/finance/debt-payoff-calculator",
+      "icon": "CreditCard",
+      "status": "active",
+      "keywords": [
+        "debt",
+        "payoff",
+        "strategy",
+        "calculator"
+      ],
+      "features": [
+        "Payoff strategies",
+        "Interest savings",
+        "Timeline"
+      ]
+    },
+    {
+      "id": "savings-goal-calculator",
+      "title": "Savings Goal Calculator",
+      "description": "Calculate how to reach your savings goals",
+      "category": "finance",
+      "url": "/finance/savings-goal-calculator",
+      "icon": "PiggyBank",
+      "status": "active",
+      "keywords": [
+        "savings",
+        "goal",
+        "calculator",
+        "planning"
+      ],
+      "features": [
+        "Goal planning",
+        "Timeline",
+        "Monthly targets"
+      ]
+    },
+    {
+      "id": "roi-calculator",
+      "title": "ROI Calculator",
+      "description": "Calculate return on investment for projects",
+      "category": "finance",
+      "url": "/finance/roi-calculator",
+      "icon": "Calculator",
+      "status": "active",
+      "keywords": [
+        "roi",
+        "return",
+        "investment",
+        "calculator"
+      ],
+      "features": [
+        "ROI calculation",
+        "Profit analysis",
+        "Comparisons"
+      ]
     }
   ]
 }

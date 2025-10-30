@@ -59,13 +59,13 @@ export function ToolContainer({ title, description, icon, children }: ToolContai
           <h2 className="text-2xl font-bold text-center mb-8">More AI Tools</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Button variant="outline" asChild>
-              <Link href="/tools/writing/tweet-generator">Tweet Generator</Link>
+              <Link href="/writing/tweet-generator">Tweet Generator</Link>
             </Button>
             <Button variant="outline" asChild>
-              <Link href="/tools/text/summarizer">Text Summarizer</Link>
+              <Link href="/text/summarizer">Text Summarizer</Link>
             </Button>
             <Button variant="outline" asChild>
-              <Link href="/tools/chat/chatgpt-chatbot">ChatGPT Bot</Link>
+              <Link href="/chat/chatgpt-chatbot">ChatGPT Bot</Link>
             </Button>
             <Button variant="outline" asChild>
               <Link href="/tools">View All Tools</Link>

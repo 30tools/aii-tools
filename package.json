@@ -10,7 +10,9 @@
 		"generate-pwa-images": "node scripts/generate-pwa-images.js",
 		"deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
 		"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-		"cf-typegen": "wrangler types --env-interface CloudflareEnv ./cloudflare-env.d.ts"
+		"cf-typegen": "wrangler types --env-interface CloudflareEnv ./cloudflare-env.d.ts",
+		"seo:mcp": "node scripts/seo-research.mjs",
+		"indexnow:submit": "curl -sS -X POST -H 'Content-Type: application/json' $NEXT_PUBLIC_SITE_URL/indexnow -d '{\"urls\":[\"'$NEXT_PUBLIC_SITE_URL'\"]}' || true"
 	},
 	"dependencies": {
 		"@ai-sdk/openai": "^2.0.58",
