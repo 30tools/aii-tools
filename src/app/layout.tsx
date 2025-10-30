@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { StackProvider, StackTheme } from "@stackframe/stack";
 import { stackClientApp } from "../stack/client";
 import { Inter } from "next/font/google";
@@ -72,6 +72,50 @@ export const metadata: Metadata = {
   other: {
     "google-adsense-account": "ca-pub-1828915420581549",
   },
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "30tools",
+    startupImage: [
+      {
+        url: "/icons/splash-750x1334.png",
+        media: "(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)",
+      },
+      {
+        url: "/icons/splash-1242x2208.png",
+        media: "(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)",
+      },
+      {
+        url: "/icons/splash-1125x2436.png",
+        media: "(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)",
+      },
+      {
+        url: "/icons/splash-1536x2048.png",
+        media: "(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)",
+      },
+      {
+        url: "/icons/splash-1668x2224.png",
+        media: "(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)",
+      },
+      {
+        url: "/icons/splash-2048x2732.png",
+        media: "(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)",
+      },
+    ],
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#0f172a" },
+  ],
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  viewportFit: "cover",
 };
 
 const jsonLd = {
@@ -94,7 +138,7 @@ const jsonLd = {
     "url": "https://ai-tools.30tools.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://ai-tools.30tools.com/logo.png"
+      "url": "https://ai-tools.30tools.com/icons/icon-512x512.png"
     }
   }
 };

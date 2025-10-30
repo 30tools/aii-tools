@@ -25,10 +25,10 @@ export function EmailRewriterClient() {
     try {
       const result = await rewriteEmail(emailContent, style);
       if (result.success) {
-        setRewrittenEmail(result.result);
+        setRewrittenEmail(result.result || "");
         toast.success("Email rewritten successfully!");
       } else {
-        toast.error(result.error || "Failed to rewrite email");
+        toast.error("Failed to rewrite email");
       }
     } catch (err) {
       console.error('Email rewriting error:', err);

@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free AI tweet generator to create engaging, viral tweets from any topic. Get multiple tweet variations with hashtags. No signup required.",
   keywords: ["tweet generator", "Twitter content", "AI writing", "social media", "viral tweets", "hashtags"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/writing/tweet-generator",
+    canonical: "https://ai-tools.30tools.com/writing/tweet-generator",
   },
   openGraph: {
     title: "Tweet Generator - Create Engaging Tweets with AI",
     description: "Free AI tweet generator to create engaging, viral tweets from any topic. Get multiple tweet variations with hashtags.",
-    url: "https://ai-tools.30tools.com/tools/writing/tweet-generator",
+    url: "https://ai-tools.30tools.com/writing/tweet-generator",
   },
 };
 
@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "Tweet Generator",
   "description": "Free AI tool to generate engaging tweets from any topic",
-  "url": "https://ai-tools.30tools.com/tools/writing/tweet-generator",
+  "url": "https://ai-tools.30tools.com/writing/tweet-generator",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {

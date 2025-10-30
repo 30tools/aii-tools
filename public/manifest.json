@@ -1,0 +1,138 @@
+{
+  "name": "30tools - Free AI Tools Collection",
+  "short_name": "30tools",
+  "description": "Discover 30+ free AI tools for writing, creativity, coding, and productivity. ChatGPT-powered utilities with no signup required.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["productivity", "utilities", "business", "education"],
+  "screenshots": [
+    {
+      "src": "/icons/splash-1125x2436.png",
+      "sizes": "1125x2436",
+      "type": "image/png",
+      "platform": "mobile",
+      "label": "AI Tools Dashboard"
+    },
+    {
+      "src": "/icons/splash-2048x2732.png",
+      "sizes": "2048x2732",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "AI Tools Collection"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": "1.5"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "density": "2.0"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "density": "2.6"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": "3.0"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI Paraphraser",
+      "short_name": "Paraphraser",
+      "description": "Rewrite text with different tones",
+      "url": "/writing/ai-paraphraser",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Tweet Generator",
+      "short_name": "Tweets",
+      "description": "Generate engaging tweets",
+      "url": "/writing/tweet-generator",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Text Summarizer",
+      "short_name": "Summarizer",
+      "description": "Summarize long text",
+      "url": "/text/summarizer",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "ChatGPT Bot",
+      "short_name": "Chat",
+      "description": "AI assistant chat",
+      "url": "/chat/chatgpt-chatbot",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "display_override": ["window-controls-overlay", "standalone"],
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}

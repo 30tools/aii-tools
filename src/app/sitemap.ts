@@ -7,8 +7,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static pages
   const staticPages = [
     '',
-    '/tools',
-    '/categories',
     '/about',
     '/contact',
     '/privacy',
@@ -27,6 +25,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}${page}`,
     lastModified: new Date(),
     changeFrequency: page === '' ? 'daily' : 'weekly',
-    priority: page === '' ? 1 : page.startsWith('/tools/') ? 0.8 : 0.6,
+    priority: page === '' ? 1 : page.includes('/') ? 0.8 : 0.6,
   }));
 }

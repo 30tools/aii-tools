@@ -6,6 +6,9 @@ import { TestimonialsSection } from "@/components/home/testimonials-section";
 import { CTASection } from "@/components/home/cta-section";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { PWAInstallPrompt } from "@/components/pwa-install-prompt";
+import { PWAOfflineIndicator } from "@/components/pwa-offline-indicator";
+import { PWAUpdatePrompt } from "@/components/pwa-update-prompt";
 import toolsData from "@/lib/tools.json";
 
 export const metadata: Metadata = {
@@ -49,6 +52,8 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <PWAOfflineIndicator />
+      <PWAUpdatePrompt />
       <Header />
       <main>
         <HeroSection />
@@ -58,6 +63,7 @@ export default function Home() {
         <CTASection />
       </main>
       <Footer />
+      <PWAInstallPrompt />
     </div>
   );
 }

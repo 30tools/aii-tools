@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free AI LinkedIn post formatter with emojis, structure, and hashtags. Transform any content into engaging professional posts. No signup required.",
   keywords: ["LinkedIn post formatter", "professional content", "social media formatting", "LinkedIn marketing", "business posts", "professional writing"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/writing/linkedin-post-formatter",
+    canonical: "https://ai-tools.30tools.com/writing/linkedin-post-formatter",
   },
   openGraph: {
     title: "LinkedIn Post Formatter - Professional Social Media Content",
     description: "Free AI LinkedIn post formatter with emojis, structure, and hashtags. Transform any content into engaging professional posts.",
-    url: "https://ai-tools.30tools.com/tools/writing/linkedin-post-formatter",
+    url: "https://ai-tools.30tools.com/writing/linkedin-post-formatter",
   },
 };
 

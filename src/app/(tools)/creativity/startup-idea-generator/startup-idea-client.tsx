@@ -28,7 +28,7 @@ export function StartupIdeaClient() {
         setIdeas(result.result);
         toast.success("Startup ideas generated successfully!");
       } else {
-        toast.error(result.error || "Failed to generate startup ideas");
+        toast.error("Failed to generate startup ideas");
       }
     } catch (err) {
       console.error('Startup idea generation error:', err);

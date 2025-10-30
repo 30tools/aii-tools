@@ -23,10 +23,10 @@ export function InstagramCaptionClient() {
     try {
       const result = await generateInstagramCaption(description);
       if (result.success) {
-        setCaption(result.result);
+        setCaption(result.result || "");
         toast.success("Instagram caption generated successfully!");
       } else {
-        toast.error(result.error || "Failed to generate caption");
+        toast.error("Failed to generate caption");
       }
     } catch (err) {
       console.error('Caption generation error:', err);

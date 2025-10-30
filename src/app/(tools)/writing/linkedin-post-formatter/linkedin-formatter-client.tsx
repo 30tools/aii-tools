@@ -23,10 +23,10 @@ export function LinkedInFormatterClient() {
     try {
       const result = await formatLinkedInPost(inputContent);
       if (result.success) {
-        setFormattedPost(result.result);
+        setFormattedPost(result.result || "");
         toast.success("LinkedIn post formatted successfully!");
       } else {
-        toast.error(result.error || "Failed to format LinkedIn post");
+        toast.error("Failed to format LinkedIn post");
       }
     } catch (err) {
       console.error('LinkedIn formatting error:', err);

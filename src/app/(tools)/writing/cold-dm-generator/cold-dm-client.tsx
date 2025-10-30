@@ -25,10 +25,10 @@ export function ColdDMClient() {
     try {
       const result = await generateColdDM(context, platform);
       if (result.success) {
-        setMessage(result.result);
+        setMessage(result.result || "");
         toast.success("Cold DM generated successfully!");
       } else {
-        toast.error(result.error || "Failed to generate cold DM");
+        toast.error("Failed to generate cold DM");
       }
     } catch (err) {
       console.error('Cold DM generation error:', err);

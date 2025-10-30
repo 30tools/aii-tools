@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: "Free AI paraphraser to rewrite text in formal, casual, or funny tones. Maintain meaning while changing style. No signup required.",
   keywords: ["paraphraser", "rewrite text", "AI writing", "text rewriter", "tone changer", "free paraphrasing tool"],
   alternates: {
-    canonical: "https://ai-tools.30tools.com/tools/writing/ai-paraphraser",
+    canonical: "https://ai-tools.30tools.com/writing/ai-paraphraser",
   },
   openGraph: {
     title: "AI Paraphraser - Rewrite Text with Different Tones",
     description: "Free AI paraphraser to rewrite text in formal, casual, or funny tones. Maintain meaning while changing style.",
-    url: "https://ai-tools.30tools.com/tools/writing/ai-paraphraser",
+    url: "https://ai-tools.30tools.com/writing/ai-paraphraser",
   },
 };
 
@@ -21,7 +21,7 @@ const jsonLd = {
   "@type": "WebApplication",
   "name": "AI Paraphraser",
   "description": "Free AI tool to paraphrase and rewrite text with different tones",
-  "url": "https://ai-tools.30tools.com/tools/writing/ai-paraphraser",
+  "url": "https://ai-tools.30tools.com/writing/ai-paraphraser",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "Web Browser",
   "offers": {
