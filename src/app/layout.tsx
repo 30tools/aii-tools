@@ -151,12 +151,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1828915420581549"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -173,6 +168,11 @@ export default function RootLayout({
           <Toaster />
         </ThemeProvider>
         <Analytics />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1828915420581549"
+          crossOrigin="anonymous"
+        />
       </StackTheme></StackProvider></body>
     </html>
   );
